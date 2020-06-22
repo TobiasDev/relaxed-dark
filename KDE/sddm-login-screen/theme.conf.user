@@ -1,0 +1,6 @@
+[General]
+type=color
+color=#121317
+background=""
+background.blur=false
+background.blur.intensity=0
