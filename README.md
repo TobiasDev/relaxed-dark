@@ -1,6 +1,9 @@
 # Relaxed Dark
 A relaxing dark theme to make your daily computer usage pleasant for your eyes
 
+## Important!
+I haven't released this theme on any "store" yet. I will once I'm happy with the base of it.
+
 ## Themes
 ### KDE
 - **IN BETA:** Color-Scheme
