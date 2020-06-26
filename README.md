@@ -26,7 +26,7 @@ This theme is not yet release on any store-pages. I will release this theme once
 | Main		| Secondary	| Third		| Fourth	|
 | ------------- | ------------- | ------------- | ------------- |
 | #121317	| #1F1E1F	| #242D34	| TODO: Add	|
-| TODO: Image	| TODO: Image 	| TODO: Image	| TODO: Image	|
+| ![Main](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Images/121317.png)	| TODO: Image 	| TODO: Image	| TODO: Image	|
 
 ## Text Colors
 _Since this is used for everything from KDE to a Terminal I have a few color variants for you different needs. If anything is missing, please open an issue or create a pull-request_
