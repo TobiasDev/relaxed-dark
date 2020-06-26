@@ -24,7 +24,7 @@ This theme is not yet release on any store-pages. I will release this theme once
 # Colors
 ## Background colors
 | Main		| Secondary	| Third		| Fourth	|
-| ------------- | ------------- | ------------- | ------------- |
+| :-----------: | :-----------: | :-----------: | :-----------: |
 | #121317	| #1F1E1F	| #242D34	| TODO: Add	|
 | ![Main](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Images/121317.png)	| ![Main](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Images/121317.png) | ![Main](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Images/242D34.png) | TODO: Image	|
 
