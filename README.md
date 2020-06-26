@@ -15,7 +15,7 @@ This theme is not yet release on any store-pages. I will release this theme once
 
 ### Software
 - **TODO:** Firefox 
-- **TODO:** [Joplin]() 
+- **TODO:** Joplin
 - **TODO:** UELI (For Windows 10) 
 - **TODO:** Terminal for Windows (I don't have one I'm happy with yet, but once I have it picked I will update this) 
 - **NEEDS REWORK:** [VS Code / VS Codium](https://github.com/TobiasDev/relaxed-dark-vs-code)
