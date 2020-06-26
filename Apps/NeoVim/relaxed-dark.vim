@@ -2,8 +2,8 @@
 " A relaxing dark theme to make your daily computer usage pleasant for your eyes
 
 " Maintainer: 	Tobias Johansson <contact@johansson-tobias.com>
-" URL:		https://github.com/TobiasDev/relaxed-dark
-" Version:	0.1.0
+" URL:		https://github.com/TobiasDev/relaxed-dark/Apps/NeoVim
+" Version:	0.1.1
 
 " Commands that will help in creating your own theme
 " :he group-name
@@ -19,8 +19,6 @@ if exists ("syntax_on")
 endif
 
 let g:colors_name = "relaxed-dark"
-
-
 
 " App colors
 hi Normal 		guibg=#121317 	guifg=#C0B1AF
@@ -47,9 +45,9 @@ hi MatchParen		guibg=#353435	guifg=#f3f0f0
 hi ModeMsg		guibg=#242D34	guifg=#F3F0F0
 hi MoreMsg		guibg=#1F1E1F	guifg=#C0B1AF
 hi NonText		guibg=#242D34	guifg=#725C5A
-hi Question		guibg=#0000ff	guifg=#ff0000
+hi Question		guibg=#242D34	guifg=#C0B1AF
 hi Search		guibg=#285270	guifg=#C0B1AF
-hi SpecialKey		guibg=#0000ff	guifg=#ff0000
+hi SpecialKey		guibg=#242D34	guifg=#C0B1AF
 " For the StatusLine it looks like bg changes text and fg the background
 hi StatusLine		guibg=#C0B1AF	guifg=#1F1E1F
 hi StatusLineNC		guibg=#725C5A	guifg=#1F1E1F
@@ -62,20 +60,18 @@ hi Tooltip		guibg=#0000ff	guifg=#ff0000
 hi Whitespace		guibg=#0000ff	guifg=#ff0000
 hi WildMenu		guibg=#0000ff	guifg=#ff0000
 
-
 " Syntax Highlighting
 " HAPPY-WITH-THESE:
 hi Comment		guifg=#725C5A
-hi Error		guibg=#A02C2C 	guifg=#C0B1AF
-hi Identifier		guifg=#DDBE69	gui=none
-hi Statement 		guifg=#D2A637	gui=none
+hi Error		guibg=#A02C2C	guifg=#D9AAAA
+hi Identifier		guifg=#D2A637	gui=none
+hi Statement 		guifg=#937426	gui=none
 hi String		guifg=#53748D
 hi Todo			guibg=#004ECC	guifg=#C0B1AF
-hi Type			guifg=#E4D5B0	gui=none 
+hi Type			guifg=#DFC073	gui=none 
 hi Underlined		guifg=#749BAA
 
 " NEED-LONGER-TESTING:
 hi Constant		guifg=#C9A27E 	 	
 hi PreProc		guifg=#AE7947
-hi Special		guifg=#DDBE69
-
+hi Special		guifg=#E8D29B
