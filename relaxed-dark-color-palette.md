@@ -1,7 +1,4 @@
 # Relaxed-Dark Color Palette
-**I might need to update my Codium colors to work togheter with my NeoVim theme**
-
-# Palette colors
 ## Background colors
 Main: 			#121317  
 	RGBA:			rgba(18, 19, 23, 1)  
@@ -76,64 +73,48 @@ Todo:			#004ECC
 ---
 ---
 ---
-# App-colors 
 
-<!-- * FINISHED * -->
+# Visual Studio Code
 ## Backgrounds
 Inactive (e.g. not selected window):        #12131760 
     RGBA:                                       rgba(18, 19, 23, 0.6)
 
-
-<!-- * FINISHED * --> 
 ### Searching and selections   
 Found items, not selected:                  #28527060 
 Show open/closing bracket:                  #453736ff 
 
-< !-- * FINISHED * --> 
 ### Editor
 Editor, Indent:                             #C0B1AF30 
 
-<!-- * FINISHED * --> 
 ## Editor-gutter
 Modified:                                   #4782FFff 
 Added:                                      #FFD085ff 
 Deleted:                                    #8F1800ff 
 
-<!-- * FINISHED * --> 
 ## Buttons: 
 Default:                                    #285270ff 
 Hover:                                      #3581B8ff 
 
-<!-- * FINISHED * --> 
 ## Success, Warning and Errors
 Error:                                      #A02C2Cff 
 Warning:                                    #FFB133ff 
 Success:                                    #2c7c43ff
 
-<!-- * FINISHED * --> 
 ### Diff
 Inserted:                                   #001A52ff 
 Removed:                                    #290700ff 
 
-<!-- * FINISHED * --> 
 ## Statusbar Backgrounds
 Standard: 				#121317ff 
 Debugging:                              #00277Aff 
 NoFolder:				#121317ff 
 Prominent:				#1F66FFff 
 
-<!-- * FINISHED * --> 
 ## Widget
 Shadow:                         	#000000ff 
 
-<!-- * FINISHED * --> 
 # Contrasts:
 Border:                     		#191A1Fff 
-## Temporary
-**When this color is used, that means I don't know what I need to open to see that app (E.G. could be something with GIT since I don't use that in VS Code, but a terminal, etc.).** 
-Strong green:                               #008000ff 
-
----
 
 # Text colors (code)
 ## Default text colors
@@ -146,13 +127,8 @@ Highlighted:                               	#f3f0f0ff
 Link:                                       	#749BAAff
     RGBA:                                       rgba(210, 198, 198, 1) 
 
-
 ## Coding 
 **These colors are subject to change as I discover issues or improvements as I'm using this** 
-
-### Todo
-- [ ] I need to go over these colors since I have tried them in some other apps but are running into issue (E.G. UELI)
-
 - #D9B559 x 27 	- E.G. Keywords (div, const, etc.) 
 - #E8D39B x 32 	- E.G. Entity names
 - #AE9B98 x 19 	- E.G. Variables 
@@ -165,23 +141,3 @@ Link:                                       	#749BAAff
 - #3C95B9 x 7 
 - #7D1D3F x 7 
 - #0000FF x 7 
-
----
-
-# Terminal still needs to changed
-- "terminal.ansiBlack": "#3C95B9", 
-- "terminal.ansiRed": "#ff628c", 
-- "terminal.ansiGreen": "#3ad900", 
-- "terminal.ansiYellow": "#ffc600", 
-- "terminal.ansiBlue": "#0088ff", 
-- "terminal.ansiMagenta": "#fb94ff", 
-- "terminal.ansiCyan": "#80fcff",
-- "terminal.ansiWhite": "#ffffff", 
-- "terminal.ansiBrightBlack": "#0050A4", 
-- "terminal.ansiBrightRed": "#DE3C4B", 
-- "terminal.ansiBrightGreen": "#3ad900", 
-- "terminal.ansiBrightYellow": "#ffc600", 
-- "terminal.ansiBrightBlue": "#0088ff", 
-- "terminal.ansiBrightMagenta": "#fb94ff", 
-- "terminal.ansiBrightCyan": "#80fcff",
-- "terminal.ansiBrightWhite": "#193549", 
