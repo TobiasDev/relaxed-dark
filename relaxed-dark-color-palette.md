@@ -41,34 +41,42 @@ Success Tint: #95BDA1
 ## Terminal Colors
 ### Black variants
 | Normal	| Bright	| Dim		|
+| ------------- | ------------- | ------------- |
 | #191919	| #464646	| #000000	|
 
 ### Red Variants
 | Normal	| Bright	| Dim		|
+| ------------- | ------------- | ------------- |
 | #A02C2C	| #D9AAAA	| #401111	|
 
 ### Green variants
 | Normal 	| Bright 	| Dim 		|
+| ------------- | ------------- | ------------- |
 | #03B591	| #67D2BD	| #016C57	|
 
 ### Yellow-variants
 | Normal 	| Bright 	| Dim 		|
+| ------------- | ------------- | ------------- |
 | #EAC435	| #F0D571	| #A38925	|
 
 ### Blue Variants
 | Normal	| Bright	| Dim		|
+| ------------- | ------------- | ------------- |
 | 345995	| 859BBF	| 1F3559	|
 
 ### Magenta
 | Normal	| Bright	| Dim		|
+| ------------- | ------------- | ------------- |
 | #B27ACD 	| #D0AFE1	| #6A497B	|
 
 ### Cyan
 | Normal	| Bright	| Dim		|
+| ------------- | ------------- | ------------- |
 | #7FC7C2	| #B2DDDA	| #4C777A	|
 
 ### White
 | Normal	| Bright	| Dim		|
+| ------------- | ------------- | ------------- |
 | #EAEAEA	| #F9F9F9	| #CECECE	|
 
 # Selections / Hovers
