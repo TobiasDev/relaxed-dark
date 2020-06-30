@@ -6,7 +6,9 @@ A relaxing dark theme to make your daily computer usage pleasant for your eyes
 This theme is not yet release on any store-pages. I will release this theme once I get further in the development with it.
 
 ## To-be themed
+
 ### KDE
+_I have moved away from KDE (to i3). I will still update these, but it might take a bit longer since this will be a second priority_
 - **NEEDS REWORK:** Color-Scheme
 - **NEEDS REWORK:** Desktop Theme
 - **NEEDS REWORK:** SDDM Login Screen
@@ -16,58 +18,52 @@ This theme is not yet release on any store-pages. I will release this theme once
 ### Software
 - **TODO:** Firefox 
 - **TODO:** Joplin
-- **TODO:** UELI (For Windows 10) 
-- **TODO:** Terminal for Windows (I don't have one I'm happy with yet, but once I have it picked I will update this) 
-- **NEEDS REWORK:** [VS Code / VS Codium](https://github.com/TobiasDev/relaxed-dark-vs-code)
-- **WORKING ON:** NeoVim 
+- **TODO:** UELI (For Windows 10)
+- **TODO:** Rofi
+- **TODO**: Termite 
+- **TODO:**  Cmder 
+- **IN-PROGRESS:** [VS Code / VS Codium](https://github.com/TobiasDev/relaxed-dark-vs-code)
+- **BETA:** NeoVim 
 
 # Colors
 ## Background colors
-| Main		| Secondary	| Third		| Fourth	|
-| :-----------: | :-----------: | :-----------: | :-----------: |
-| #121317	| #1F1E1F	| #242D34	| TODO: Add	|
-| ![Main](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Images/121317.png)	| ![Main](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Images/121317.png) | ![Main](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Images/242D34.png) | TODO: Image	|
+|  Main   | Secondary |  Third  |  Fourth   | Inactive |
+| :-----: | :-------: | :-----: | :-------: | :------: |
+| #121317 |  #1F1E1F  | #242D34 | TODO: Add | #1D1F25  |
 
-
+## Selection / Text backgrounds
+| Main  | Secondary | Third | Fourth | Inactive |
+| :---: | :-------: | :---: | :----: | :------: |
+|       |           |       |        |          |
 
 ## Text Colors
-_Since this is used for everything from KDE to a Terminal I have a few color variants for you different needs. If anything is missing, please open an issue or create a pull-request_
-
-Default: #C0B1AF  
-
+|  Main   | Secondary |  Third  |  Fourth   | Inactive |
+| :-----: | :-------: | :-----: | :-------: | :------: |
+| #C0B1AF |  #1F1E1F  | #242D34 | TODO: Add | #3B3636  |
+  
 ### Coding
-Default: #C0B1AF  
-
-#### Types
-Comments: #725C5A  
-Statement: #937426  
-Identifier: #D2A637  
-Type: #DFC073  
-PreProc: #AE7947  
-Special: #E8D29B  
-String: Need a color  
-
+| Comments | Identifier | PreProc | Special | Statement | String |  Type   |
+| :------: | :--------: | :-----: | :-----: | :-------: | :----: | :-----: |
+| #725C5A  |  #D2A637   | #AE7947 | #E8D29B |  #937426  |  TODO  | #DFC073 |
+  
 ## Messages
-| Type		| Normal	| Bright	| Shade		|
-| ------------- | ------------- | ------------- | ------------- |
-| Error		| #A02C2C	| #D9AAAA	| #401111	|
-| 		| TODO: Image 	| TODO: Image	| TODO: Image	|
-| Warning 	| #FFB144	| #DDF084	| #996A1E	|
-|		| TODO: Image 	| TODO: Image	| TODO: Image	|
-| Success	| #2C7C43	| #95BDA1	| #163E21	|
-|		| TODO: Image 	| TODO: Image	| TODO: Image	|
+| Type    | Normal  | Bright  | Shade   |
+| ------- | ------- | ------- | ------- |
+| Error   | #A02C2C | #D9AAAA | #401111 |
+| Warning | #FFB144 | #DDF084 | #996A1E |
+| Success | #2C7C43 | #95BDA1 | #163E21 |
 
 ## Terminal Colors
-| Color 	| Normal	| Bright	| Shade		|
-| ------------- | ------------- | ------------- | ------------- |
-| Black		| #191919	| #464646	| #000000	|
-| Red		| #A02C2C	| #D9AAAA	| #401111	|
-| Green 	| #03B591	| #67D2BD	| #016C57	|
-| Yellow 	| #EAC435	| #F0D571	| #A38925	|
-| Blue		| 345995	| 859BBF	| 1F3559	|
-| Magenta	| #B27ACD 	| #D0AFE1	| #6A497B	|
-| Cyan		| #7FC7C2	| #B2DDDA	| #4C777A	|
-| White 	| #EAEAEA	| #F9F9F9	| #CECECE	|
+| Color   | Normal  | Bright  | Shade   |
+| ------- | ------- | ------- | ------- |
+| Black   | #191919 | #464646 | #000000 |
+| Red     | #A02C2C | #D9AAAA | #401111 |
+| Green   | #03B591 | #67D2BD | #016C57 |
+| Yellow  | #EAC435 | #F0D571 | #A38925 |
+| Blue    | 345995  | 859BBF  | 1F3559  |
+| Magenta | #B27ACD | #D0AFE1 | #6A497B |
+| Cyan    | #7FC7C2 | #B2DDDA | #4C777A |
+| White   | #EAEAEA | #F9F9F9 | #CECECE |
 
 # Selections / Hovers
 Hover: 			#353435  
@@ -93,9 +89,6 @@ Todo:			#004ECC
 
 # Visual Studio Code Specific colors
 **I'm currently re-working some colors for this theme. All colors below are still used in current versions of the theme, however, they are subjet to change.**
-
-## Backgrounds
-Inactive (e.g. not selected window):        #12131760 
 
 ### Searching and selections   
 Found items, not selected:                  #28527060 
