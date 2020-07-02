@@ -27,129 +27,83 @@ _I have moved away from KDE (to i3). I will still update these, but it might tak
 
 # Colors
 ## Background colors
-|  Main   | Secondary |  Third  |  Fourth   | Inactive |
-| :-----: | :-------: | :-----: | :-------: | :------: |
-| #121317 |  #1F1E1F  | #242D34 | TODO: Add | #1D1F25  |
+|  Main   | Secondary |  Third  | Fourth  | Inactive |
+| :-----: | :-------: | :-----: | :-----: | :------: |
+| #121317 |  #1F1E1F  | #242D34 | #COOLOR | #1D1F25  |
 
 ## Selection / Text backgrounds
-| Main  | Secondary | Third | Fourth | Inactive |
-| :---: | :-------: | :---: | :----: | :------: |
-|       |           |       |        |          |
+| Selection | Current |  Extra  |
+| :-------: | :-----: | :-----: |
+|  #285270  | #3581b8 | #353435 |
+
+## Buttons
+| Selection |  Hover  |  Click  |
+| :-------: | :-----: | :-----: |
+|  #285270  | #3581b8 | #COOLOR |
 
 ## Text Colors
-|  Main   | Secondary |  Third  |  Fourth   | Inactive |
-| :-----: | :-------: | :-----: | :-------: | :------: |
-| #C0B1AF |  #1F1E1F  | #242D34 | TODO: Add | #3B3636  |
-  
+|  Main   | Secondary |  Third  | Fourth  | Inactive |
+| :-----: | :-------: | :-----: | :-----: | :------: |
+| #C0B1AF |  #COOLOR  | #COOLOR | #COOLOR | #3B3636  |
+
 ### Coding
-| Comments | Identifier | PreProc | Special | Statement | String |  Type   |
-| :------: | :--------: | :-----: | :-----: | :-------: | :----: | :-----: |
-| #725C5A  |  #D2A637   | #AE7947 | #E8D29B |  #937426  |  TODO  | #DFC073 |
-  
+| Comments | Identifier | PreProc | Special | Statement | String  |  Type   | Brackets |
+| :------: | :--------: | :-----: | :-----: | :-------: | :-----: | :-----: | :------: |
+| #725C5A  |  #D2A637   | #AE7947 | #E8D29B |  #937426  | #53748D | #DFC073 | #453736  |
+
 ## Messages
-| Type    | Normal  | Bright  | Shade   |
-| ------- | ------- | ------- | ------- |
-| Error   | #A02C2C | #D9AAAA | #401111 |
+|  Type   | Normal  | Bright  |  Shade  |
+| :-----: | :-----: | :-----: | :-----: |
+|  Error  | #A02C2C | #D9AAAA | #401111 |
 | Warning | #FFB144 | #DDF084 | #996A1E |
 | Success | #2C7C43 | #95BDA1 | #163E21 |
+|  Todo   | #004ECC |  #NONE  |  #NONE  |
 
 ## Terminal Colors
-| Color   | Normal  | Bright  | Shade   |
-| ------- | ------- | ------- | ------- |
-| Black   | #191919 | #464646 | #000000 |
-| Red     | #A02C2C | #D9AAAA | #401111 |
-| Green   | #03B591 | #67D2BD | #016C57 |
-| Yellow  | #EAC435 | #F0D571 | #A38925 |
-| Blue    | 345995  | 859BBF  | 1F3559  |
-| Magenta | #B27ACD | #D0AFE1 | #6A497B |
-| Cyan    | #7FC7C2 | #B2DDDA | #4C777A |
-| White   | #EAEAEA | #F9F9F9 | #CECECE |
+_These are currently in testing to see if I like them or not_
 
-# Selections / Hovers
-Hover: 			#353435  
+|  Color  | Normal  | Bright  |
+| :-----: | :-----: | :-----: |
+|  Black  | #666666 | #828188 |
+|   Red   | #861D24 | #CF2E39 |
+|  Green  | #367033 | #4B9A47 |
+| Yellow  | #FFDD33 | #FFEB60 |
+|  Blue   | #3776A9 | #74A8D2 |
+| Magenta | #93105A | #E9359B |
+|  Cyan   | #3EAFAF | #A5DFDF |
+|  White  | #D8DCA7 | #F2F3E2 |
 
-## Searches
-Text BG:		#285270  
-Text FG:		#C0B1AF  
+**Info: If the black color is the background for your terminal I suggest using these colors instead**
+| Color | Normal  | Bright  |
+| :---: | :-----: | :-----: |
+| Black | #121317 | #1F1E1F |
 
 ## File Colors
-Default:		#9C8481ff  
-GIT, Modified:		#4782FFff  
-GIT, Deleted:		#8F1800ff  
-GIT, Untracked:		#B66E68ff  
-GIT, Ignored: 		#9C848160  
-GIT, Conflict: 		#F52900ff  
-
-Errors:			#A02C2C  
-Todo:			#004ECC  
+_These need some re-work, but will stay for now_
+| Default |  Added  | Modified | Deleted | Untracked | Ignored | Conflict | Text, Inserted | Text, Removed |
+| :-----: | :-----: | :------: | :-----: | :-------: | :-----: | :------: | :------------: | :-----------: |
+| #9C8441 | #FFD085 | #4782ff  | #8f1800 |  b66e68   | #9c8481 | #f52900  |    #001A52     |    #290700    |
 
 ---
----
----
 
-# Visual Studio Code Specific colors
-**I'm currently re-working some colors for this theme. All colors below are still used in current versions of the theme, however, they are subjet to change.**
-
-### Searching and selections   
-Found items, not selected:                  #28527060 
-Show open/closing bracket:                  #453736ff 
-
-### Editor
-Editor, Indent:                             #C0B1AF30 
-
-## Editor-gutter
-Modified:                                   #4782FFff 
-Added:                                      #FFD085ff 
-Deleted:                                    #8F1800ff 
-
-## Buttons: 
-Default:                                    #285270ff 
-Hover:                                      #3581B8ff 
-
-## Success, Warning and Errors
-Error:                                      #A02C2Cff 
-Warning:                                    #FFB133ff 
-Success:                                    #2c7c43ff
-
-### Diff
-Inserted:                                   #001A52ff 
-Removed:                                    #290700ff 
-
+# Special colors used in the VS Code theme
 ## Statusbar Backgrounds
-Standard: 				#121317ff 
-Debugging:                              #00277Aff 
-NoFolder:				#121317ff 
+Debugging:              #00277Aff 
 Prominent:				#1F66FFff 
 
+### Editor
+Editor, Indent:         #C0B1AF30 
+
 ## Widget
-Shadow:                         	#000000ff 
+Shadow:                 #000000ff 
 
-## Contrasts:
-Border:                     		#191A1Fff 
+## Text colors (code)
+Inactive:               #C0B1AF60
 
-# Text colors (code)
-## Default text colors
-Standard:                           		#C0B1AFff 
-Comments:					#C0B1AF80 
-Inactive:                             		#C0B1AF60
-Inactive, when transparency is not allowed: 	#3b3636 
-Highlighted:                               	#f3f0f0ff 
-Link:                                       	#749BAAff
-
-## Coding 
-**These colors are subject to change as I discover issues or improvements as I'm using this** 
-- #D9B559 x 27 	- E.G. Keywords (div, const, etc.) 
-- #E8D39B x 32 	- E.G. Entity names
-- #AE9B98 x 19 	- E.G. Variables 
-- #53748D x 2	- E.G. Strings 
-- #7E6363 x 15 	- E.G. 
-- #6B4C5E x 3	- E.G. Constants (only numbers) 
-
-### FIX: Need to figure out where these colors are used :END   
-- #F26419 x 2 
-- #3C95B9 x 7 
-- #7D1D3F x 7 
-- #0000FF x 7 
+### Need to figure out where these colors are used in VS Code languages   
+- #ffff00 x 4 
+- #00ffff x 7 
+- #0000FF x 2 
 
 # LICENSES
 Each sub-folder should include a license and a mention if the theme is based out of someone elses. If you see something that is wrong, please create and issue and I'll look into it ASAP.

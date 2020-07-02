@@ -41,7 +41,7 @@ hi Folded		guibg=#242D34	guifg=#725C5A
 hi FoldedColumn		guibg=#0000ff	guifg=#ff0000
 hi IncSearch		guibg=#f3f0f0	guifg=#162C3C
 hi LineNr		guibg=#151415	guifg=#2E2524
-hi MatchParen		guibg=#353435	guifg=#f3f0f0
+hi MatchParen		guibg=#453736	guifg=#f3f0f0
 hi ModeMsg		guibg=#242D34	guifg=#F3F0F0
 hi MoreMsg		guibg=#1F1E1F	guifg=#C0B1AF
 hi NonText		guibg=#242D34	guifg=#725C5A
@@ -58,7 +58,7 @@ hi Menu			guibg=#0000ff	guifg=#ff0000
 hi Scrollbar		guibg=#0000ff	guifg=#ff0000
 hi Tooltip		guibg=#0000ff	guifg=#ff0000
 hi Whitespace		guibg=#0000ff	guifg=#ff0000
-hi WildMenu		guibg=#0000ff	guifg=#ff0000
+hi WildMenu		guibg=#285270	guifg=#f3f0f0
 
 " Syntax Highlighting
 " HAPPY-WITH-THESE:
@@ -75,3 +75,4 @@ hi Underlined		guifg=#749BAA
 hi Constant		guifg=#C9A27E 	 	
 hi PreProc		guifg=#AE7947
 hi Special		guifg=#E8D29B
+
