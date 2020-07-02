@@ -22,7 +22,7 @@ _I have moved away from KDE (to i3). I will still update these, but it might tak
 - **TODO:** Rofi
 - **TODO**: Termite 
 - **TODO:**  Cmder 
-- **IN-PROGRESS:** [VS Code / VS Codium](https://github.com/TobiasDev/relaxed-dark-vs-code)
+- **BETA:** [VS Code / VS Codium](https://github.com/TobiasDev/relaxed-dark-vs-code)
 - **BETA:** NeoVim 
 
 # Colors
