@@ -105,8 +105,6 @@ _These are currently in testing to see if I like them or not_
 
 ## File Colors
 TODO: I really don't like the "Text, Inserted" and "Text, Removed", I have to find new ones them!
-https://coolors.co/9c8441-ffd085-8f1800-f59700-9c8481-f52900-001a52-290700 
-
 
 | Default   | Added/Modified    | Deleted   | Untracked     | Ignored   | Conflict  | Text, Inserted    | Text, Removed |
 | :-----:   | :------:          | :-----:   | :-------:     | :-----:   | :------:  | :------------:    | :-----------: |
