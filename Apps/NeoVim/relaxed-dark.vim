@@ -1,9 +1,9 @@
-" Relaxed Dark 
+" Relaxed Dark
 " A relaxing dark theme to make your daily computer usage pleasant for your eyes
 
 " Maintainer: 	Tobias Johansson <contact@johansson-tobias.com>
 " URL:		https://github.com/TobiasDev/relaxed-dark/Apps/NeoVim
-" Version:	0.1.1
+" Version:	0.2.0
 
 " Commands that will help in creating your own theme
 " :he group-name
@@ -21,12 +21,12 @@ endif
 let g:colors_name = "relaxed-dark"
 
 " App colors
-hi Normal 		guibg=#121317 	guifg=#C0B1AF
+hi Normal 		guibg=#121317 	guifg=#C0B1AF 	 	
 " I'm currently not sure what "Cursor, guifg" changes
 hi Cursor 		guifg=#C0B1AF	guifg=#ff0000
 " I'm not sure what "CursorIM" changes
 hi CursorIM		guibg=#0000ff	guifg=#ff0000
-hi CursorLine		guibg=#1F1E1F	
+hi CursorLine		guibg=#1F1E1F	ctermbg=178
 hi CursorLineNr		guibg=none	guifg=#725C5A	
 hi Directory		guibg=none 	guifg=#D9B559
 hi DiffAdd		guibg=#1C5087	guifg=#C0B1AF
@@ -62,17 +62,39 @@ hi WildMenu		guibg=#285270	guifg=#f3f0f0
 
 " Syntax Highlighting
 " HAPPY-WITH-THESE:
-hi Comment		guifg=#725C5A
+hi Comment		guifg=#5B4948
+
+hi Constant		guifg=#6589A4 	 	
+
+hi Special		guifg=#629370
+
+hi Statement 		guifg=#A38F71 	gui=none 
+hi Conditional		guifg=#E78A67
+hi Repeat		guifg=#E78A67
+hi Label		guifg=#9E82B0
+hi Operator		guifg=#9E82B0
+hi Keyword		guifg=#9E82B0
+hi Exception		guifg=#9E82B0
+
+hi Identifier		guifg=#9E82B0	gui=none
+
+hi Type			guifg=#B6A790	gui=none 
+
 hi Error		guibg=#A02C2C	guifg=#D9AAAA
-hi Identifier		guifg=#D2A637	gui=none
-hi Statement 		guifg=#937426	gui=none
-hi String		guifg=#53748D
 hi Todo			guibg=#004ECC	guifg=#C0B1AF
-hi Type			guifg=#DFC073	gui=none 
+
 hi Underlined		guifg=#749BAA
 
 " NEED-LONGER-TESTING:
-hi Constant		guifg=#C9A27E 	 	
-hi PreProc		guifg=#AE7947
-hi Special		guifg=#E8D29B
+hi PreProc		guifg=#9E82B0
+
+
+
+
+
+
+
+
+
+
 
