@@ -70,10 +70,6 @@ _I have moved away from KDE (to i3). I will still update these, but it might tak
 
 ### Coding
 
-| Comments | Identifier / Punctuation | PreProc | Special | Statement / Entity | String  | Type / Entity.Other | Brackets |
-| :------: | :----------------------: | :-----: | :-----: | :----------------: | :-----: | :-----------------: | :------: |
-| #5B4948  |         #D2A637          | #AE7947 | #E8D29B |      #937426       | #53748D |       #DFC073       | #453736  |
-
 | Color   | Image |
 | :------ | :---: |
 | #5B4948 | TODO  |
