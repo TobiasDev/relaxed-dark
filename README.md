@@ -1,6 +1,6 @@
 # Relaxed Dark
 
-A relaxing dark theme to make your daily computer usage pleasant for your eyes
+**A relaxing dark theme to make your daily computer usage pleasant for your eyes**
 
 **Please read:** This theme is still in very early stages. I have been looking for a relaxing dark theme I can use in my daily computer usage. I know there are a lot of themes out there, but I also wanted to learn how to create my own theme for the apps I use daily. This is the main reason for "Relaxed Dark".
 
@@ -54,7 +54,7 @@ _I have moved away from KDE (to i3). I will still update these, but it might tak
 
 | Selection | Current |  Extra  |
 | :-------: | :-----: | :-----: |
-|  #285270  | #3581b8 | #353435 |
+|  #2E2424  | #4A3C3B | #353435 |
 
 ## Buttons
 
@@ -70,9 +70,21 @@ _I have moved away from KDE (to i3). I will still update these, but it might tak
 
 ### Coding
 
-| Comments | Identifier | PreProc | Special | Statement | String  |  Type   | Brackets |
-| :------: | :--------: | :-----: | :-----: | :-------: | :-----: | :-----: | :------: |
-| #725C5A  |  #D2A637   | #AE7947 | #E8D29B |  #937426  | #53748D | #DFC073 | #453736  |
+| Comments | Identifier / Punctuation | PreProc | Special | Statement / Entity | String  | Type / Entity.Other | Brackets |
+| :------: | :----------------------: | :-----: | :-----: | :----------------: | :-----: | :-----------------: | :------: |
+| #5B4948  |         #D2A637          | #AE7947 | #E8D29B |      #937426       | #53748D |       #DFC073       | #453736  |
+
+| Color   | Image |
+| :------ | :---: |
+| #5B4948 | TODO  |
+| #766A80 | TODO  |
+| #B6A780 | TODO  |
+| #629370 | TODO  |
+| #A38F71 | TODO  |
+| #E78A67 | TODO  |
+| #C0B1AF | TODO  |
+| #9E82B0 | TODO  |
+| #6589A4 | TODO  |
 
 ## Messages
 
@@ -104,13 +116,10 @@ _These are currently in testing to see if I like them or not_
 | Black | #121317 | #1F1E1F |
 
 ## File Colors
-TODO: I really don't like the "Text, Inserted" and "Text, Removed", I have to find new ones them!
 
-| Default   | Added/Modified    | Deleted   | Untracked     | Ignored   | Conflict  | Text, Inserted    | Text, Removed |
-| :-----:   | :------:          | :-----:   | :-------:     | :-----:   | :------:  | :------------:    | :-----------: |
-| #9C8441   | #FFD085           | #8f1800   | #F59700       | #9c8481   | #f52900   | #001A52           | #290700       |
-
----
+| Default | Added/Modified | Deleted | Untracked | Ignored | Conflict | Text, Inserted | Text, Removed |
+| :-----: | :------------: | :-----: | :-------: | :-----: | :------: | :------------: | :-----------: |
+| #9C8441 |    #FFD085     | #8f1800 |  #F59700  | #9c8481 | #f52900  |    #493912     |    #3D0A00    |
 
 # Special colors used in the VS Code theme
 
@@ -130,12 +139,6 @@ Shadow: #000000ff
 ## Text colors (code)
 
 Inactive: #C0B1AF60
-
-### Need to figure out where these colors are used in VS Code languages
-
-- #ffff00 x 4
-- #00ffff x 7
-- #0000FF x 2
 
 # LICENSES
 
