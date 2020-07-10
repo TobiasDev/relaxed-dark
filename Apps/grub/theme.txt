@@ -1,0 +1,39 @@
+# GRUB2 gfxmenu based on EndeavourOS theme
+# Designed for any resolution
+
+# Global Property
+title-text: "GRUB"
+desktop-color: "#121317"
+terminal-font: "IBM Plex Mono 14"
+terminal-box: "terminal_box_*.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+# Show the boot menu
++ boot_menu {
+  left = 10%
+  top = 10%
+  width = 80%
+  height = 80%
+  item_font = "IBM Plex Mono 14"
+  item_color = "#C0B1AF"
+  selected_item_color = "#F2F3E2"
+  item_height = 24
+  item_spacing = 16
+  selected_item_pixmap_style = "select_*.png"
+}
+
+# Show a countdown message using the label component
++ label {
+  top = 82%
+  left = 35%
+  width = 30%
+  align = "center"
+  id = "__timeout__"
+  text = "Booting in %d seconds"
+  color = "#C0B1AF"
+  font = "IBM Plex Mono 14"
+}

@@ -1,0 +1,132 @@
+/* ------
+ * Relaxed Dark for Rofi
+ * Maintainer: Tobias Johansson (TobiasDev)
+ * License: MIT
+ * Version: 0.1
+ ------ */
+* {
+    bg-main:                    #121317;
+    bg-secondary:               #1F1E1F;
+    bg-selected:                #4A3C3B;
+    fg-main:                    #C0B1AF;
+    fg-bright:                  #F2F3E2;
+    fg-urgent:                  #FFB144;
+    fg-active:                  #DDF084;
+
+    debug-red:                  #FF0000;
+    debug-green:                #00FF00;
+    debug-blue:                 #0000FF;
+
+    red:                         #A02C2C;
+    blue:                        #004ECC;
+    lightbg:                     @debug-green;
+    lightfg:                     @debug-blue;
+    spacing:                     2;
+    background-color:            rgba ( 0, 0, 0, 0 % );
+}
+#window {
+    background-color: @bg-main;
+    border:           2;
+    border-color:     @bg-secondary;
+    padding:          6;
+}
+#mainbox {
+    border:  0;
+    padding: 0;
+}
+#message {
+    border:       2px solid 0px 0px ;
+    border-color: @bg-secondary;
+    padding:      10px ;
+}
+#textbox {
+    text-color: @fg-main;
+}
+#listview {
+    fixed-height: 0;
+    border:       2px solid 0px 0px ;
+    border-color: @bg-secondary;
+    spacing:      2px ;
+    scrollbar:    true;
+    padding:      10px 0px 10px 0px;
+}
+#element {
+    border:  0;
+    padding: 2px ;
+}
+#element.normal.normal {
+    background-color: @bg-main;
+    text-color:       @fg-main;
+}
+#element.normal.urgent {
+    background-color: @bg-main;
+    text-color:       @fg-urgent;
+}
+#element.normal.active {
+    background-color: @bg-main;
+    text-color:       @fg-active;
+}
+#element.selected.normal {
+    background-color: @bg-selected;
+    text-color:       @fg-bright;
+}
+#element.selected.urgent {
+    background-color: @bg-selected;
+    text-color:       @fg-bright;
+}
+#element.selected.active {
+    background-color: @bg-selected;
+    text-color:       @fg-bright;
+}
+#element.alternate.normal {
+    background-color: @bg-main;
+    text-color:       @fg-main;
+}
+#element.alternate.urgent {
+    background-color: @bg-main;
+    text-color:       @fg-urgent;
+}
+#element.alternate.active {
+    background-color: @bg-main;
+    text-color:       @fg-active;
+}
+#scrollbar {
+    width:        4px;
+    border:       0;
+    handle-width: 8px;
+    padding:      0;
+}
+#mode-switcher {
+    border:       2px solid 0px 0px ;
+    border-color: @bg-secondary;
+}
+#button.selected {
+    background-color: @debug-green;
+    text-color:       @debug-red;
+}
+#inputbar {
+    spacing:    0;
+    text-color: @fg-bright;
+    padding:    1px ;
+}
+#case-indicator {
+    spacing:    0;
+    text-color: @fg-main;
+}
+#entry {
+    spacing:    0;
+    text-color: @fg-main;
+}
+#prompt {
+    spacing:    0;
+    text-color: @fg-main;
+}
+#inputbar {
+    children:   [ prompt,textbox-prompt-colon,entry,case-indicator ];
+}
+#textbox-prompt-colon {
+    expand:     false;
+    str:        ":";
+    margin:     0px 0.3em 0em 0em ;
+    text-color: @fg-main;
+}
