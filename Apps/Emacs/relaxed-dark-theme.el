@@ -1,8 +1,9 @@
 ;;; relaxed-dark , A relaxing dark theme to make your daily computer usage pleasant for your eyes
 
 ;; Author: Tobias Johansson
-;; Version: 0.
+;; Version: 0.1.1
 ;; Keywords: theme, faces
+;; Latest Update: Fixing some more parts of the theme! 
 
 ;;; Code:
 (deftheme relaxed-dark
@@ -42,8 +43,24 @@
       (warning-bright "#FFED91")
       (warning-shade "#F7CE00")
 
-      ;; GIT
+
+      ;; Diff 
       (diff-header "#7A4B00")
+      (diff-header-file "#7A4B00")
+      (diff-red-a "#380917")
+      (diff-red-b "#4D0E21")
+      (diff-red-c "#5E0721")
+      (diff-green-a "#0E330A")
+      (diff-green-b "#1B3B17")
+      (diff-green-c "#3B6136")
+      (diff-blue-a "#1B2987")
+      (diff-blue-b "#22318F")
+      (diff-blue-c "#2636A3")
+      (diff-purple-a "#3E2547")
+      (diff-purple-b "#563463")
+      (diff-purple-c "#714B81")
+
+      ;; GIT
       (git-default "#C0B1AF")
       (git-added "#FFA91F")
       (git-modified "#FFA91F")
@@ -116,49 +133,64 @@
    `(font-lock-warning-face ((t (:foreground ,warning-norm))))
    `(font-lock-preprocessor-char-face ((t (:foreground ,fg-link))))
    `(font-lock-negation-char-font ((t (:foreground ,db-red))))
-   `(font-lock-constant-face ((t (:foreground ,db-red))))
+   `(font-lock-constant-face ((t (:foreground ,fg-string))))
    `(font-lock-preprocessor-face ((t (:foreground ,db-red))))
-   `(font-lock-reference-face ((t (:foreground ,db-red))))
+   `(font-lock-reference-face ((t (:foreground ,db-green))))
 
    ;; --- Line numbers ---
    `(line-number              ((t (:foreground ,fg-comment :bold t))))
    `(line-number-current-line ((t (:background ,bg-secondary foreground: ,fg-highlight :bold t))))
 
    ;; --- Diff ---
-   `(diff-added ((t (:background ,git-txt-modified))))
-   `(diff-changed ((t (:background ,git-txt-modified))))
-   ;;`(diff-context ((t (:background ,db-cyan))))
-   `(diff-file-header ((t (:background ,diff-header))))
-   `(diff-function ((t (:background ,db-cyan))))
-   `(diff-header ((t (:background ,diff-header))))
+   `(diff-header ((t (:background ,bg-main))))
+   `(diff-file-header ((t (:background ,bg-main :foreground ,fg-highlight :bold t))))
    `(diff-hunk-header ((t (:background ,bg-third))))
+   `(diff-added ((t (:background ,diff-green-a))))
+   `(diff-indicator-added ((t (:background ,diff-green-b :foreground ,diff-green-c :bold t))))
+   `(diff-changed ((t (:background ,diff-blue-a))))
+   `(diff-indicator-changed ((t (:background ,diff-blue-b :foreground ,diff-blue-c :bold t))))
+   `(diff-removed ((t (:background ,diff-red-a))))
+   `(diff-indicator-removed ((t (:background ,diff-red-b :foreground ,diff-red-a :bold t))))
+
+   ;; --- Not sure what these do ---
    `(diff-index ((t (:background ,db-blue))))
-   `(diff-indicator-added ((t (:background ,git-txt-modified))))
-   `(diff-indicator-changed ((t (:background ,git-txt-modified))))
-   `(diff-indicator-removed ((t (:background ,git-txt-deletion))))
+   `(diff-function ((t (:background ,db-cyan))))
    `(diff-nonexistent ((t (:background ,db-blue))))
-   `(diff-refine-added ((t (:background ,git-txt-modified))))
-   `(diff-refine-changed ((t (:background ,git-txt-modified))))
-   `(diff-refine-removed ((t (:background ,git-txt-deletion))))
-   `(diff-removed ((t (:background ,git-txt-deletion))))
+   `(diff-refine-added ((t (:background ,db-yellow))))
+   `(diff-refine-changed ((t (:background ,db-green))))
+   `(diff-refine-removed ((t (:background ,db-red))))
 
    ;; --- EDiff ---
-   `(ediff-current-diff-A ((t (:background ,db-yellow))))
+   `(ediff-current-diff-A ((t (:background ,diff-red-a))))
+   `(ediff-even-diff-A ((t (:background ,diff-green-a)))) 
+   `(ediff-fine-diff-A ((t (:background ,diff-blue-a)))) 
+   `(ediff-odd-diff-A ((t (:background ,diff-purple-a)))) 
+
+   `(ediff-current-diff-B ((t (:background ,diff-red-b)))) 
+   `(ediff-even-diff-B ((t (:background ,diff-green-b)))) 
+   `(ediff-fine-diff-B ((t (:background ,diff-blue-b)))) 
+   `(ediff-odd-diff-B ((t (:background ,diff-purple-b))))
+
+   `(ediff-current-diff-C ((t (:background ,diff-red-c)))) 
+   `(ediff-even-diff-C ((t (:background ,diff-green-c)))) 
+   `(ediff-fine-diff-C ((t (:background ,diff-blue-c)))) 
+   `(ediff-odd-diff-C ((t (:background ,diff-purple-c))))
+
+   ;; Not sure where these are used
    `(ediff-current-diff-Ancestor ((t (:background ,db-blue))))
-   `(ediff-current-diff-B ((t (:background ,db-green)))) 
-   `(ediff-current-diff-C ((t (:background ,db-cyan)))) 
-   `(ediff-even-diff-A ((t (:background ,db-magneta)))) 
-   `(ediff-even-diff-Ancestor ((t (:background ,git-added)))) 
-   `(ediff-even-diff-B ((t (:background ,git-added)))) 
-   `(ediff-even-diff-C ((t (:background ,git-added)))) 
-   `(ediff-fine-diff-A ((t (:background ,git-added)))) 
-   `(ediff-fine-diff-Ancestor ((t (:background ,git-added))))
-   `(ediff-fine-diff-B ((t (:background ,git-added)))) 
-   `(ediff-fine-diff-C ((t (:background ,git-added)))) 
-   `(ediff-odd-diff-A ((t (:background ,git-added)))) 
-   `(ediff-odd-diff-Ancestor ((t (:background ,git-added))))
-   `(ediff-odd-diff-B ((t (:background ,git-added))))
-   `(ediff-odd-diff-C ((t (:background ,git-added))))
+   `(ediff-even-diff-Ancestor ((t (:background ,db-red)))) 
+   `(ediff-fine-diff-Ancestor ((t (:background ,db-yellow))))
+   `(ediff-odd-diff-Ancestor ((t (:background ,db-green))))
+
+   ;; whitespace mode
+   `(whitespace-empty       ((t (:background ,db-blue))))
+   `(whitespace-hspace      ((t (:background ,db-green))))
+   `(whitespace-indentation ((t (:background ,db-yellow :bold t))))
+   `(whitespace-line        ((t (:bold t))))
+   `(whitespace-newline     ((t (:foreground ,db-red))))
+   `(whitespace-space       ((t (:foreground ,db-magneta :bold t))))
+   `(whitespace-trailing    ((t (:background ,db-cyan :bold t))))
+
    ;; generic
    ;; `(escape-glyph     ((t (:foreground ,h-ca))))
    ;; `(fringe           ((t (:background ,bg-0))))
@@ -166,15 +198,6 @@
    ;; `(shadow           ((t (:foreground ,gr-2))))
    ;; `(tooltip          ((t (:foreground ,w :background ,b))))
    ;; `(trailing-whitespace ((t (:foreground ,h-ra :background ,h-rc))))
-
-      ;; ;; whitespace mode
-   ;; `(whitespace-empty       ((t (:background ,h-ya))))
-   ;; `(whitespace-hspace      ((t (:foreground ,gr-0 :background ,gr-2))))
-   ;; `(whitespace-indentation ((t (:foreground ,h-ya :background ,h-yc :bold t))))
-   ;; `(whitespace-line        ((t (:foreground ,h-ra :bold t))))
-   ;; `(whitespace-newline     ((t (:foreground ,gr-2))))
-   ;; `(whitespace-space       ((t (:foreground ,gr-2 :bold t))))
-   ;; `(whitespace-trailing    ((t (:foreground ,h-ra :background ,h-rc :bold t))))
 
    ;;  ;; widgets
    ;; `(widget-field              ((t (:background ,bg-1))))
