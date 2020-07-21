@@ -1,15 +1,9 @@
 # Relaxed Dark
 **A relaxing dark theme to make your daily computer usage pleasant for your eyes**
 
-**Please read:** This theme is still in very early stages. I have been looking for a relaxing dark theme I can use in my daily computer usage. I know there are a lot of themes out there, but I also wanted to learn how to create my own theme for the apps I use daily. This is the main reason for "Relaxed Dark".
+**Please read:** This theme is still early development. I have been looking for a dark theme I can use as my daily driver. I know there are a lot of themes out there, but I also wanted to learn how to create my own theme for the apps I use. This is the main reason for "Relaxed Dark".
 
-```
-CHANGELOG
-Date: 16.07.2020
-- Adding a work-in-progress emacs theme
-```
-
-Most of the theme are not yet released on any "store/extension" pages. The ones that are is linked below.
+Most of the theme are not released on any store/extension pages. The ones that are, can be found linked below.
 
 - [MS Marketplace: Visual Studio Code Theme Extension](https://marketplace.visualstudio.com/items?itemName=TobiasDev.relaxed-dark)
 - [Open VSX: VS Codium Theme Extension](https://open-vsx.org/extension/TobiasDev/relaxed-dark)
@@ -19,21 +13,22 @@ Most of the theme are not yet released on any "store/extension" pages. The ones 
 #### Multi
 - **TODO:** Firefox
 - **TODO:** Joplin
-- **BETA:** [NeoVim](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/NeoVim)
+- **ALPHA:** File-manager: Vifm
+- **FINISHED:** [NeoVim](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/NeoVim)
 - **BETA:** [VS Code/VS Codium](https://github.com/TobiasDev/relaxed-dark-vs-code)
 
 #### Linux (Arch-Based distro)
+- **FINISHED:** Notification-manager: Dunst 
 - **FINISHED:** [Rofi](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/Rofi)
-- **TODO**: Termite or Kitty
+- **TODO**: Termite 
 - **STARTED**: [Grub](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/grub)
 
 #### Windows 10
 - **FINISHED:** [UELI](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/UELI)
-- **TODO:** Alacritty
+- **TODO:** Cmder 
 
-### KDE
-_I have moved away from KDE (to i3). I will still update these, but it might take a bit longer since this will be a second priority_
-
+### ~~KDE~~
+_I have moved away from KDE (to i3). I will still update these, but it will take longer_
 - **NEEDS REWORK:** [Color-Scheme](https://github.com/TobiasDev/relaxed-dark/tree/master/KDE/color-scheme)
 - **NEEDS REWORK:** [Desktop Theme](https://github.com/TobiasDev/relaxed-dark/tree/master/KDE/desktop-theme)
 - **NEEDS REWORK:** [SDDM Login Screen](https://github.com/TobiasDev/relaxed-dark/tree/master/KDE/sddm-login-screen)
@@ -41,7 +36,7 @@ _I have moved away from KDE (to i3). I will still update these, but it might tak
 - **NEEDS REWORK:** [Konsole](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/Konsole)
 
 # Colors
-**INFO: Anywhere you see #COOLOR a color is not yet decided. If you have a suggestions please create a issue.**
+**INFO: There are still some colors missing, if you have a suggestion for anything missing (#COOLOR), please open an issue**
 
 ## Background colors
 |  Main   | Secondary |  Third  | Inactive |
@@ -56,26 +51,25 @@ _I have moved away from KDE (to i3). I will still update these, but it might tak
 ## Buttons
 | Selection |  Hover  |  Click  |
 | :-------: | :-----: | :-----: |
-|  #285270  | #3581b8 | #COOLOR |
+|  #285270  | #3581b8 | #COOLOR | 
 
 ## Text Colors
-| Value | Main    | Inactive |
-|:------|:-------:|:--------:|
-| Hex   | #C0B1AF | #3B3636  |
-| Xterm | #C0B1AF | #3B3636  |
+| Value   | Main      | Not selected | Inactive   |
+| :------ | :-------: | :----------: | :--------: |
+| Hex     | #C0B1AF   | #COOLOR      | #3B3636    |
 
 ### Coding
-|Usage| Color   | Image | XTerm |
-|:--- |:--------|:-----:|:-----:|
-|Comments| #5B4948 | TODO  |       |
-|| #766A80 | TODO  |       |
-|| #B6A780 | TODO  |       |
-|| #629370 | TODO  |       |
-|Statement| #A38F71 | TODO  |       |
-|| #E78A67 | TODO  |       |
-|| #C0B1AF | TODO  |       |
-|| #9E82B0 | TODO  |       |
-|| #6589A4 | TODO  |       |
+| Usage     | Color     | XTerm   |
+| :---      | :-------- | :-----: |
+| Comments  | #5B4948   |         |
+|           | #766A80   |         |
+|           | #B6A780   |         |
+|           | #629370   |         |
+| Statement | #A38F71   |         |
+|           | #E78A67   |         |
+|           | #C0B1AF   |         |
+|           | #9E82B0   |         |
+|           | #6589A4   |         |
 
 ## Messages
 | Type    | Normal  | Bright  | Shade   |
@@ -103,15 +97,15 @@ _I have moved away from KDE (to i3). I will still update these, but it might tak
 | Black | #121317 | #1F1E1F |
 
 ## Diff / Git
-| Color			| File-colors	| BG / Text		|
-|:----------------------|:-------------:|:---------------------:|
-| Diff-header		| #7A4B00	| Uses the main BG	|
-| Default		| #C0B1AF	| Uses the main BG	|
-| Added / Modified	| #FFA91F 	| #062552  		|
-| Deleted 		| #F63C17 	| #4F1003 		|
-| Untracked    		| #FFD085 	| Uses the main BG 	|
-| Ignored 		| #675351 	| Uses the main BG 	|
-| Conflict		| #B81F00 	| # 			|
+| Color                   | File-colors     | BG / Text               |
+| :---------------------- | :-------------: | :---------------------: |
+| Diff-header             | #7A4B00         | Uses the main BG        |
+| Default                 | #C0B1AF         | Uses the main BG        |
+| Added / Modified        | #FFA91F         | #062552                 |
+| Deleted                 | #F63C17         | #4F1003                 |
+| Untracked               | #FFD085         | Uses the main BG        |
+| Ignored                 | #675351         | Uses the main BG        |
+| Conflict                | #B81F00         | #                       |
 
 # Special colors used in the VS Code theme
 ## Statusbar Backgrounds
