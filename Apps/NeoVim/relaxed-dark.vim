@@ -3,8 +3,8 @@
 
 " Maintainer: 	Tobias Johansson <contact@johansson-tobias.com>
 " URL:		    https://github.com/TobiasDev/relaxed-dark/Apps/NeoVim
-" Version:	    0.2.1
-" Updated:      Added Pmenu, PMenuSel
+" Version:	    0.2.2
+" Updated:      Added some plugin-specific colors 
 
 " Commands that will help in creating your own theme
 " :he group-name
@@ -22,12 +22,12 @@ endif
 let g:colors_name = "relaxed-dark"
 
 " App colors
-hi Normal 		    guibg=#121317 	guifg=#C0B1AF 	 	
+hi Normal 		    guibg=#121317 	guifg=#C0B1AF   ctermbg=233 ctermfg=220
 " I'm currently not sure what "Cursor, guifg" changes
-hi Cursor 		    guifg=#C0B1AF	guifg=#ff0000
+hi Cursor 		    guifg=#C0B1AF	guifg=#ff0000   ctermbg=26  ctermfg=137
 " I'm not sure what "CursorIM" changes
 hi CursorIM		    guibg=#0000ff	guifg=#ff0000
-hi CursorLine		guibg=#1F1E1F	ctermbg=178
+hi CursorLine		guibg=#1F1E1F	ctermbg=178     ctermfg=233
 hi CursorLineNr		guibg=none	    guifg=#725C5A	
 hi Directory		guibg=none 	    guifg=#D9B559
 hi DiffAdd		    guibg=#1C5087	guifg=#C0B1AF
@@ -54,18 +54,18 @@ hi StatusLine		guibg=#C0B1AF	guifg=#1F1E1F
 hi StatusLineNC		guibg=#725C5A	guifg=#1F1E1F
 hi Title		    guibg=none	    guifg=#D9B559
 hi Visual		    guibg=#4A3C3B	guifg=#C0B1AF
-hi VisualNOS	    guibg=#0000ff	guifg=#ff0000
-hi Menu			    guibg=#0000ff	guifg=#ff0000
-hi Scrollbar	    guibg=#0000ff	guifg=#ff0000
-hi Tooltip		    guibg=#0000ff	guifg=#ff0000
-hi Whitespace       guibg=#0000ff	guifg=#ff0000
+hi VisualNOS	    guibg=#00FFFF	guifg=#ff0000
+hi Menu			    guibg=#FF00FF	guifg=#ff0000
+hi Scrollbar	    guibg=#00ffff	guifg=#ff0000
+hi Tooltip		    guibg=#ff00ff	guifg=#ff0000
+hi Whitespace       guibg=#ff0000	guifg=#ff0000
 hi WildMenu		    guibg=#285270	guifg=#F2F3E2
 hi PMenu            guibg=#1F1E1F   guifg=#C0B1AF
 hi PMenuSel         guibg=#4A3C3B   guifg=#F2F3E2
 
 " Syntax Highlighting
 " HAPPY-WITH-THESE:
-hi Comment		    guifg=#5B4948
+hi Comment		    guifg=#5B4948   ctermfg=233
 hi Constant		    guifg=#6589A4 	 	
 hi Special		    guifg=#629370
 hi Statement 		guifg=#A38F71 	gui=none 
@@ -84,3 +84,13 @@ hi Underlined		guifg=#749BAA
 " NEED-LONGER-TESTING:
 hi PreProc		    guifg=#9E82B0
 
+ highlight SignColumn guibg=#1F1E1F gui=NONE
+" Make background color transparent for git changes
+ hi SignifySignAdd guibg=#242D34
+ hi SignifySignDelete guibg=#242D34
+ hi SignifySignChange guibg=#242D34
+
+ " Highlight git change signs
+ hi SignifySignAdd guifg=#FFA91F
+ hi SignifySignDelete guifg=#F63C17
+ hi SignifySignChange guifg=#FFA91F
