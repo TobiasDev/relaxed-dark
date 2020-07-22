@@ -1,7 +1,7 @@
 # Relaxed Dark
 **A relaxing dark theme to make your daily computer usage pleasant for your eyes**
 
-**Please read:** This theme is still early development. I have been looking for a dark theme I can use as my daily driver. I know there are a lot of themes out there, but I also wanted to learn how to create my own theme for the apps I use. This is the main reason for "Relaxed Dark".
+**Please read:** This theme is in early development. I have been looking for a dark theme I can use as my daily driver. I know there are a lot of themes out there, but I also wanted to learn how to create my own theme for the apps I use. This is the main reason for "Relaxed Dark".
 
 Most of the theme are not released on any store/extension pages. The ones that are, can be found linked below.
 
@@ -13,19 +13,19 @@ Most of the theme are not released on any store/extension pages. The ones that a
 #### Multi
 - **TODO:** Firefox
 - **TODO:** Joplin
-- **ALPHA:** File-manager: Vifm
+- **ALPHA:** [Vifm](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/Vifm)
 - **FINISHED:** [NeoVim](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/NeoVim)
 - **BETA:** [VS Code/VS Codium](https://github.com/TobiasDev/relaxed-dark-vs-code)
 
 #### Linux (Arch-Based distro)
-- **FINISHED:** Notification-manager: Dunst 
+- **FINISHED:** [Dunst](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/Dunst) 
 - **FINISHED:** [Rofi](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/Rofi)
 - **TODO**: Termite 
 - **STARTED**: [Grub](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/grub)
 
 #### Windows 10
 - **FINISHED:** [UELI](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/UELI)
-- **TODO:** Cmder 
+- **TODO:** Windows Terminal 
 
 ### ~~KDE~~
 _I have moved away from KDE (to i3). I will still update these, but it will take longer_
