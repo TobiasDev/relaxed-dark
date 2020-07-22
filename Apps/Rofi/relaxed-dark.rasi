@@ -2,7 +2,7 @@
  * Relaxed Dark for Rofi
  * Maintainer: Tobias Johansson (TobiasDev)
  * License: MIT
- * Version: 0.1
+ * Version: 0.1.1
  ------ */
 * {
     bg-main:                    #121317;
@@ -28,7 +28,7 @@
     background-color: @bg-main;
     border:           2;
     border-color:     @bg-secondary;
-    padding:          6;
+    padding:          40;
 }
 #mainbox {
     border:  0;
