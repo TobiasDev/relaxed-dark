@@ -25,7 +25,7 @@ Most of the theme are not released on any store/extension pages. The ones that a
 
 #### Windows 10
 - **FINISHED:** [UELI](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/UELI)
-- **TODO:** Windows Terminal 
+- **TODO:** Cygwin 
 
 ### ~~KDE~~
 _I have moved away from KDE (to i3). I will still update these, but it will take longer_
