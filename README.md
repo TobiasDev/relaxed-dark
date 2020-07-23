@@ -63,17 +63,17 @@ _I have moved away from KDE (to i3). I will still update these, but I don't know
 |  ![#C0B1AF](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/FG_Main.webp)         |              | ![#3B3636](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/FG_Inactive.webp)           |
 
 ### Coding
-| Usage     | Color     | Image   |
-| :---      | :-------- | :-----: |
-| Comments  | #5B4948   | ![#5B4948](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/CODE_00.webp)       |
-|           | #766A80   | ![#766A80](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/CODE_01.webp)      |
-|           | #B6A780   | ![#B6A780](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/CODE_02.webp)        |
-|           | #629370   | ![#629370](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/CODE_03.webp)        |
-| Statement | #A38F71   | ![#A38F71](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/CODE_04.webp)        |
-|           | #E78A67   | ![#E78A67](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/CODE_05.webp)        |
-|           | #C0B1AF   | ![#C0B1AF](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/CODE_06.webp)        |
-|           | #9E82B0   | ![#9E82B0](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/CODE_07.webp)        |
-|           | #6589A4   | ![#6589A4](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/CODE_08.webp)        |
+| Usage     | Color     | Image                                                                                                     |
+| :---      | :-------- | :-----:                                                                                                   |
+| Comments  | #5B4948   | ![#5B4948](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/CODE_00.webp) |
+| Underlined           | #766A80   | ![#766A80](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/CODE_01.webp) |
+| Type          | #B6A780   | ![#B6A780](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/CODE_02.webp) |
+| Special          | #629370   | ![#629370](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/CODE_03.webp) |
+| Statement | #A38F71   | ![#A38F71](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/CODE_04.webp) |
+| Conditional, Repeat          | #E78A67   | ![#E78A67](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/CODE_05.webp) |
+| Default          | #C0B1AF   | ![#C0B1AF](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/CODE_06.webp) |
+| Label, Operator, Keyword, etc.          | #9E82B0   | ![#9E82B0](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/CODE_07.webp) |
+| Constant          | #6589A4   | ![#6589A4](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/CODE_08.webp) |
 
 ## Messages
 | Type      | Normal    | Bright    | Shade     |
