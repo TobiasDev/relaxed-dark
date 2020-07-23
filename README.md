@@ -42,7 +42,7 @@ _I have moved away from KDE (to i3). I will still update these, but I don't know
 | Main    | Secondary | Third   | Inactive |
 | :-----: | :-------: | :-----: | :------: |
 | #121317 | #1F1E1F   | #242D34 | #1D1F25  |
-| ![#121317]()        | ![#1F1E1F]()          |![#242D34]()          | ![#1D1F25]()         |
+| ![#121317](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/BG_Main.webp)        | ![#1F1E1F](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/BG_Secondary.webp)          |![#242D34](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/BG_Third.webp)          | ![#1D1F25](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/BG_Inactive.webp)         |
 
 ## Selection / Text backgrounds
 | Selection | Current | Extra   |
