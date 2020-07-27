@@ -87,13 +87,6 @@ _I have moved away from KDE (to i3). I will still update these, but I don't know
 | Todo      | #004ECC   | #NONE     | #NONE     |
 |           |           |           |           |
 
-
-#430e12
-#1B3B54
-#665814
-#1B3819
-#3A0624
-
 ## Terminal Colors
 | Color     | Normal    | Bright    |
 | :-------- | :-------: | :-------: |
