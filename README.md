@@ -57,10 +57,10 @@ _I have moved away from KDE (to i3). I will still update these, but I don't know
 |  ![#285270](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/BTN_Main.webp)         | ![#3581b8](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/BTN_Hover.webp)        |         |          |
 
 ## Text Colors
-| Main      | Not selected | Inactive   |
-| :-------: | :----------: | :--------: |
-| #C0B1AF   | #COOLOR      | #3B3636    |
-|  ![#C0B1AF](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/FG_Main.webp)         |              | ![#3B3636](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/FG_Inactive.webp)           |
+| Main      | Not selected | Dark |Inactive   |
+| :-------: | :----------: | :---: |:--------: |
+| #C0B1AF   | #COOLOR      | #131111|#3B3636    |
+|  ![#C0B1AF](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/FG_Main.webp)         |              | | ![#3B3636](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/FG_Inactive.webp)           |
 
 ### Coding
 | Usage     | Color     | Image                                                                                                     |
@@ -80,8 +80,8 @@ _I have moved away from KDE (to i3). I will still update these, but I don't know
 | :-------: | :-------: | :-------: | :-------: |
 | Error     | #A02C2C   | #D9AAAA   | #401111   |
 |           | ![#A02C2C](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/MSG_Err_Normal.webp)          | ![#D9AAAA](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/MSG_Err_Bright.webp)          | ![#401111](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/MSG_Err_Shade.webp)          |
-| Warning   | #FFE044   | #FFED91   | #F7CE00   |
-|           | ![#FFE044](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/MSG_War_Normal.webp)          | ![#FFED91](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/MSG_War_Bright.webp)          | ![#F7CE00](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/MSG_War_Shade.webp)          |
+| Warning   | #FFE044   | #FFED91   | #AC9000    |
+|           | ![#FFE044](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/MSG_War_Normal.webp)          | ![#FFED91](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/MSG_War_Bright.webp)          | ![#AC9000]()          |
 | Success   | #2C7C43   | #95BDA1   | #163E21   |
 |           | ![#2C7C43](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/MSG_Suc_Normal.webp)          | ![#95BDA1](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/MSG_Suc_Bright.webp)          | ![#163E21](https://raw.githubusercontent.com/TobiasDev/relaxed-dark/master/Resources/Colors/MSG_Suc_Shade.webp)          |
 | Todo      | #004ECC   | #NONE     | #NONE     |
