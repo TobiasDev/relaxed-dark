@@ -13,19 +13,19 @@ Most of the theme are not released on any store/extension pages. The ones that a
 #### Multi
 - **TODO:** Firefox
 - **TODO:** Joplin
-- **BETA:** [Vifm](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/Vifm)
+- **FINISHED:** [Vifm](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/Vifm)
 - **FINISHED:** [NeoVim](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/NeoVim)
-- **BETA:** [VS Code/VS Codium](https://github.com/TobiasDev/relaxed-dark-vs-code)
+- **BETA:** [VS Code/VS Codium](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/VSCode)
 
 #### Linux (Arch-Based distro)
-- **FINISHED:** [Dunst](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/Dunst) 
+- **FINISHED:** [Dunst](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/Dunst)
 - **FINISHED:** [Rofi](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/Rofi)
-- **TODO**: Termite 
-- **STARTED**: [Grub](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/grub)
+- **TODO**: Termite
+- **TODO**: [Grub](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/grub)
 
 #### Windows 10
 - **FINISHED:** [UELI](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/UELI)
-- **BETA:** [Cygwin](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/Cygwin) 
+- **FINISHED:** [Cygwin](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/Cygwin)
 
 ### ~~KDE~~
 _I have moved away from KDE (to i3). I will still update these, but I don't know when!_

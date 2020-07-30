@@ -1,0 +1,450 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "Relaxed Dark",
+	"type": "dark",	
+	"colors": {
+		// --------------- WELCOME ---------------
+		"walkThrough.embeddedEditorBackground": "#242D34ff", // MARKDOWN CODE BG
+		"welcomePage.buttonBackground": "#1F1E1Fff",
+		"welcomePage.buttonHoverBackground": "#353435ff",
+
+		// --------------- MAIN APP ---------------
+		// ----- Title bar -----
+		"titleBar.activeBackground": "#121317ff", 
+		"titleBar.inactiveBackground": "#1d1f25ff",
+		"titleBar.activeForeground": "#C0B1AFff",
+		"titleBar.inactiveForeground": "#3B3636ff",
+		
+		// ----- Menu (File, Edit, Selection , etc.) -----
+		"menu.background": "#121317ff",
+		
+		// ----- Dropdowns (Like the ones in settings) -----
+		"dropdown.background": "#121317ff",
+		"dropdown.border": "#1F1E1Fff",
+		"dropdown.foreground": "#C0B1AFff",
+		
+		// ----- Activity bar -----
+	  	"activityBar.background": "#121317ff",
+	  	"activityBar.border": "#1F1E1Fff",
+	  	"activityBar.foreground": "#C0B1AFff", // Changes the color of the icons
+		"activityBarBadge.background": "#1F1E1Fff", 
+		"activityBarBadge.foreground": "#C0B1AFff",
+
+		// ----- Sidebar ----- 
+		"sideBar.background": "#121317ff",
+		"sideBar.border": "#1F1E1Fff",
+		"sideBar.foreground": "#9C8481ff", // This is the default sidebar file text color
+		"sideBarSectionHeader.background": "#1F1E1Fff",
+		"sideBarSectionHeader.foreground": "#C0B1AFff",
+		"sideBarTitle.foreground": "#C0B1AFff",
+
+		// ----- -----
+		"list.activeSelectionBackground": "#353435ff",
+		"list.activeSelectionForeground": "#C0B1AFff",
+		"list.hoverBackground": "#353435ff",
+		"list.hoverForeground": "#C0B1AFff", 
+		"list.inactiveSelectionBackground": "#353435ff", 
+		"list.inactiveSelectionForeground": "#C0B1AFff",
+	  	"list.focusBackground": "#353435ff", // Drop-down Menu 
+	  	"list.focusForeground": "#C0B1AFff",
+	  	"list.dropBackground": "#353435ff",
+	  	"list.highlightForeground": "#f3f0f0ff", // Highlighted text in for example, search 
+		// Badge
+		"badge.background": "#1F1E1Fff",
+		"badge.foreground": "#C0B1AFff",
+
+		  // ----- Buttons -----
+		"button.background": "#285270ff",
+		"button.hoverBackground": "#3581B8ff",
+		"button.foreground": "#C0B1AFff",
+
+		// ----- Tab -----
+		"tab.activeBackground": "#121317ff",
+		"tab.activeForeground": "#C0B1AFff",
+		"tab.border": "#121317ff",
+		"tab.activeBorder": "#C0B1AFff", 
+		"tab.inactiveBackground": "#1F1E1Fff", 
+		"tab.inactiveForeground": "#C0B1AF60",
+		"tab.unfocusedActiveForeground": "#C0B1AF60",
+		"tab.unfocusedInactiveForeground": "#C0B1AF60",
+
+		// ----- General -----
+		"focusBorder": "#353435ff", // Border around selected text-box
+		"foreground": "#C0B1AFff",	
+	  	// Selection
+		"selection.background": "#C0B1AF60",
+		  
+		// ----- Input -----
+		"input.background": "#1F1E1Fff",
+		"input.border": "#1F1E1Fff",
+		"input.placeholderForeground": "#C0B1AF60", // Search box?
+		"input.foreground": "#C0B1AFff",
+		"inputOption.activeBorder": "#008000ff",
+		"inputValidation.errorBackground": "#121317ff",
+		"inputValidation.errorBorder": "#A02C2Cff",
+		"inputValidation.infoBackground": "#121317ff", 
+		"inputValidation.infoBorder": "#285270ff",
+		"inputValidation.warningBackground": "#121317ff",
+		"inputValidation.warningBorder": "#FFB144ff",
+
+		// ----- editorGroupHeader -----
+		"editorGroupHeader.noTabsBackground": "#008000ff",
+		"editorGroupHeader.tabsBackground": "#121317ff",
+		"editorGroupHeader.tabsBorder": "#1F1E1Fff",
+
+		// ----- editorGroup -----
+		"editorGroup.emptyBackground": "#121317ff",
+		"editorGroup.border": "#1F1E1Fff",
+		"editorGroup.dropBackground": "#C0B1AF60",
+
+		// ----- Panel (E.G. Terminal) -----
+		"panel.background": "#121317ff",
+		"panel.border": "#1F1E1Fff",
+		"panelTitle.activeBorder": "#C0B1AFff",
+		"panelTitle.activeForeground": "#C0B1AFff",
+		"panelTitle.inactiveForeground": "#C0B1AF60",
+	  
+	  	// ----- Editor -----
+	  	"editor.background": "#121317ff",
+	  	"editor.foreground": "#C0B1AFff",
+		"editorGutter.background": "#121317ff", // Numbering on the side
+		"editorLineNumber.foreground": "#C0B1AF60",
+			
+			// Searching
+			"editor.findMatchBackground": "#4A3C3Bff", // TODO: Currently found item
+			"editor.findMatchHighlightBackground": "#2E2424ff", // TODO: Other Found Items int the document
+			"editor.selectionBackground": "#4A3C3Bff", // TODO: This is the standard Select colour
+			"editor.inactiveSelectionBackground": "#2E2424ff", // TODO: when you have something selected, but have lost focus on the editor
+			
+			"editor.hoverHighlightBackground": "#242D34ff", // When you hover over something and a popup shows, this highlights that thing
+	  		"editor.selectionHighlightBackground": "#2E2424ff", // This is the colour of the other matching elements
+
+			// current line styles
+			"editor.lineHighlightBackground": "#1F1E1Fff",
+			"editor.lineHighlightBorder": "#1F1E1Fff",
+			
+			// Writing
+			"editorCursor.foreground": "#C0B1AFff",
+
+			// Modifications
+			"editorGutter.modifiedBackground": "#73B2D3ff",
+			"editorGutter.addedBackground": "#FFD085ff",
+			"editorGutter.deletedBackground": "#7A160080",
+			
+			// When something is searched for and selected this is the background
+			"editor.rangeHighlightBackground": "#1F1E1Fff",
+
+			// TODO: What is this used for? 
+			"editor.findRangeHighlightBackground": "#008000ff",
+
+			// Coloring Brackets
+			"editorBracketMatch.background": "#453736ff",
+			"editorBracketMatch.border": "#453736ff",
+			
+			// Strong is the one where your cursor currently is
+			"editor.wordHighlightStrongBackground": "#453736ff",
+			
+			// Coding errors
+			"editorError.border": "#A02C2Cff",
+			"editorError.foreground": "#A02C2Cff",
+
+			"editorHoverWidget.background": "#1F1E1Fff",
+			"editorHoverWidget.border": "#1F1E1Fff",
+			"editorIndentGuide.background": "#C0B1AF30",
+			"editorLink.activeForeground": "#749BAAff",	
+
+			"editor.wordHighlightBackground": "#1F1E1Fff", // This colors shows you your highlighted word, I'm "hiding" that 
+			"editorCodeLens.foreground": "#C0B1AFff",
+	
+			// editorMarkerNavigation - E.G. Peek
+			"editorMarkerNavigation.background": "#1F1E1Fff",
+			"editorMarkerNavigationError.background": "#A02C2Cff",
+			"editorMarkerNavigationWarning.background": "#FFB144ff",
+	
+			// ruler
+			"editorOverviewRuler.border": "#121317ff", // Border for "ruler"
+			"editorOverviewRuler.commonContentForeground": "#008000ff",
+			"editorOverviewRuler.currentContentForeground": "#008000ff",
+			"editorOverviewRuler.incomingContentForeground": "#008000ff",
+			"editorRuler.foreground": "#008000ff",
+			
+			// editorSuggestWidget
+			"editorSuggestWidget.background": "#121317ff",
+			"editorSuggestWidget.border": "#1F1E1Fff",
+			"editorSuggestWidget.foreground": "#C0B1AF60",
+			"editorSuggestWidget.highlightForeground": "#C0B1AFff",
+			"editorSuggestWidget.selectedBackground": "#353435ff",
+			
+			// editorWarning
+			"editorWarning.border": "#FFB144ff",
+			"editorWarning.foreground": "#FFB144ff",
+			"editorWhitespace.foreground": "#C0B1AFff",
+			"editorWidget.background": "#121317ff",
+			"editorWidget.border": "#1F1E1Fff",
+			"errorForeground": "#C0B1AFff",  
+
+	  	// "----- Peek view -----
+	  	"peekView.border": "#121317ff",
+	  	"peekViewEditor.background": "#242D34ff",
+	  	"peekViewEditor.matchHighlightBackground": "#285270ff",
+	  	"peekViewEditorGutter.background": "#242D34ff",
+	  	"peekViewResult.background": "#242D34ff",
+	  	"peekViewResult.fileForeground": "#008000ff",
+	  	"peekViewResult.lineForeground": "#008000ff",
+	  	"peekViewResult.matchHighlightBackground": "#285270ff",
+	  	"peekViewResult.selectionBackground": "#285270ff",
+	  	"peekViewResult.selectionForeground": "#C0B1AFff",
+	  	"peekViewTitle.background": "#242D34ff",
+	  	"peekViewTitleDescription.foreground": "#f3f0f0ff",
+	  	"peekViewTitleLabel.foreground": "#f3f0f0ff",
+
+		// ----- Terminal -----
+		"terminal.background": "#121317ff", 
+		"terminal.foreground": "#C0B1AFff", 
+		"terminalCursor.background": "#008000ff", 
+		"terminalCursor.foreground": "#C0B1AFff", 
+		
+		"terminal.ansiBlack": "#666666", 
+		"terminal.ansiRed": "#861D24", 
+		"terminal.ansiGreen": "#367033", 
+		"terminal.ansiYellow": "#FFDD33", 
+		"terminal.ansiBlue": "#3776A9", 
+		"terminal.ansiMagenta": "#93105A", 
+		"terminal.ansiCyan": "#3EAFAF",
+		"terminal.ansiWhite": "#D8DCA7", 
+		"terminal.ansiBrightBlack": "#828188", 
+		"terminal.ansiBrightRed": "#CF2E39", 
+		"terminal.ansiBrightGreen": "#4B9A47", 
+		"terminal.ansiBrightYellow": "#FFEB85", 
+		"terminal.ansiBrightBlue": "#74A8D2", 
+		"terminal.ansiBrightMagenta": "#E9359B", 
+		"terminal.ansiBrightCyan": "#A5DFDF",
+		"terminal.ansiBrightWhite": "#F2F3F2", 
+		
+		// ----- StatusBar -----
+		"statusBar.background": "#121317ff",
+		"statusBar.border": "#1F1E1Fff",
+		"statusBar.foreground": "#C0B1AFff",
+		"statusBar.debuggingBackground": "#00277Aff",
+		"statusBar.debuggingBorder": "#1F1E1Fff",
+		"statusBar.debuggingForeground": "#C0B1AFff",
+		
+		// TODO: Create a color schme for the different statues
+		"statusBar.noFolderBackground": "#121317ff",
+		"statusBar.noFolderBorder": "#1F1E1Fff",
+		"statusBar.noFolderForeground": "#C0B1AFff",
+		"statusBarItem.activeBackground": "#1F1E1Fff",
+		"statusBarItem.hoverBackground": "#353435ff",
+		"statusBarItem.prominentBackground": "#1F66FFff",
+		"statusBarItem.prominentHoverBackground": "#008000ff",
+		
+		// ----- Notification colors ----- 
+		// The colors below only apply for VS Code versions 1.21 and higher.
+	  	"notificationCenter.border": "#1F1E1Fff",
+	  	"notificationCenterHeader.foreground": "#C0B1AFff",
+	  	"notificationCenterHeader.background": "#121317ff",
+	  	"notificationToast.border": "#1F1E1Fff",
+	  	"notifications.foreground": "#C0B1AFff",
+	  	"notifications.background": "#121317ff",
+	  	"notifications.border": "#1F1E1Fff",
+	  	"notificationLink.foreground": "#749BAAff",
+
+		"textLink.activeForeground": "#749BAAff", // Hover over link
+		"textLink.foreground": "#749BAAff", // File Link Color
+		
+		// textBlockQuote
+		"textBlockQuote.background": "#1F1E1Fff",
+		"textBlockQuote.border": "#353435ff",
+		"textPreformat.foreground": "#f3f0f0ff",
+		"textCodeBlock.background": "#008000ff",
+		"textSeparator.foreground": "#008000ff",
+		
+		// ----- Scrollbar -----
+		"scrollbar.shadow": "#000000ff", 
+		"scrollbarSlider.activeBackground": "#353435ff",
+		"scrollbarSlider.background": "#353435ff",
+		"scrollbarSlider.hoverBackground": "#353435ff",
+		
+		// ----- Widgets -----
+		"widget.shadow": "#000000ff",
+		
+	  	// ----- Extension Button -----
+	  	"extensionButton.prominentBackground": "#285270ff",
+	  	"extensionButton.prominentForeground": "#C0B1AFff",
+	  	"extensionButton.prominentHoverBackground": "#3581B8ff",
+
+	  	// ----- Picker -----
+	  	"pickerGroup.border": "#1F1E1Fff",
+	  	"pickerGroup.foreground": "#242D34ff",
+
+		// Diff
+		"diffEditor.insertedTextBackground": "#493912ff",
+		"diffEditor.insertedTextBorder": "#493912ff",
+		"diffEditor.removedTextBackground": "#3D0A00ff",
+		"diffEditor.removedTextBorder": "#3D0A00ff",
+
+	  	// Merge
+	  	"merge.border": "#1F1E1Fff",
+	  	"merge.commonContentBackground": "#008000ff", // TODO: What do you do? :END
+	  	"merge.commonHeaderBackground": "#008000ff", // TODO: What do you do? :END
+	  	"merge.currentContentBackground": "#493912ff",
+	  	"merge.currentHeaderBackground": "#493912ff",
+	  	"merge.incomingContentBackground": "#3D0A00ff",
+	  	"merge.incomingHeaderBackground": "#3D0A00ff",
+		"descriptionForeground": "#f3f0f0ff", // E.G. Change desc.
+
+		// Contrast
+		"contrastActiveBorder": null,
+		"contrastBorder": "#191A1Fff",
+
+		// Debug
+		"debugExceptionWidget.background": "#008000ff",
+	  	"debugExceptionWidget.border": "#008000ff",
+	  	"debugToolBar.background": "#1F1E1Fff",
+		
+		// progressBar
+	  	"progressBar.background": "#4782FFff",
+
+	  	// Git status colors in File Explorer
+	  	"gitDecoration.modifiedResourceForeground": "#FFD085ff",
+	  	"gitDecoration.deletedResourceForeground": "#8F1800ff",
+	  	"gitDecoration.untrackedResourceForeground": "#F59700ff",
+	  	"gitDecoration.ignoredResourceForeground": "#9C848160",
+	  	"gitDecoration.conflictingResourceForeground": "#F52900ff", 
+	},
+	"tokenColors": [
+		{
+		  	"settings": {
+				"foreground": "#C0B1AF",
+		  	}
+		},
+		{
+		  	"scope": "emphasis",
+		  	"settings": {
+				"fontStyle": "italic"
+		  	}
+		},
+		{
+		  	"scope": "strong",
+		  	"settings": {
+				"fontStyle": "bold"
+		  	}
+		},		
+		{ 
+		  	"name": "[Comment] Comment & Punctuation Definition",
+		  	"scope": [
+				"comment",
+				"punctuation.definition.comment",
+				"punctuation.end.definition.comment",
+				"punctuation.start.definition.comment"
+		  	],
+		  	"settings": {
+				"foreground": "#5B4948"
+		  	}
+		},
+		{
+			"name": "[Constant] Overall",
+			"scope": [
+				"constant",
+				"meta.property-value",
+			],
+			"settings": {
+				"foreground": "#766A80",
+			}
+		},
+		{
+			"name": "[Entity] Class",
+			"scope": [
+				"entity.name.type.class",
+				"entity.other.inherited-class"
+			],
+			"settings": {
+				"foreground": "#B6A790",
+			}
+		},
+		{
+			"name": "[Entity] Module",
+			"scope": "entity.name.type.module",
+			"settings": {
+				"foreground": "#629370"
+			}
+		},
+		{
+		  	"name": "[Entity] Overall",
+		  	"scope": [
+			  	"entity.name.function",
+			  	"entity.name.method",
+			  	"entity.name.section",
+			  	"entity.name.selector",
+			  	"entity.name.tag",
+				"entity.name.type",
+				"keyword.operator",
+				"punctuation"	  
+		  	],
+		  	"settings": {
+				"foreground": "#A38F71"
+		  	}
+		},
+		{
+		  	"name": "[Entity] Other",
+		  	"scope": [
+				"entity.other",
+			  	"entity.other.attribute-name"
+		  	],
+		  	"settings": {
+				"foreground": "#B6A790"
+		  	}
+		},
+		{
+			"name": "[Keyword] Overall",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#E78A67",
+			}
+		},
+		{
+			"name": "[Meta] Overall",
+			"scope": "meta",
+			"settings": {
+				"foreground": "#C0B1AF",
+			}
+		},
+		{
+			"name": "[Storage] Overall",
+			"scope": "storage",
+			"settings": {
+				"foreground": "#9E82B0",
+			}
+		},
+		{ 
+			"name": "[String] Overall",
+			"scope": "string",
+			"settings": {
+				"foreground": "#6589A4",
+			}
+		},
+		{
+			"name": "[Support] Overall",
+			"scope": "support",
+			"settings": {
+				"foreground": "#C0B1AF",
+			}
+		},
+		{
+			"name": "[Variable] Overall",
+			"scope": "variable",
+			"settings": {
+				"foreground": "#A38F71",
+			}
+
+		},
+		{
+			"name": "[Variable]",
+			"scope": "variable.other",
+			"settings": {
+				"foreground": "#B6A790",
+			}
+		}
+	]
+  }
+  
