@@ -22,12 +22,13 @@ Most of the theme are not released on any store/extension pages. The ones that a
 #### Linux (Arch-Based distro)
 - **TODO**: Grub
 - **FINISHED:** i3 - Part of my [dot-files repo](https://github.com/TobiasDev/dot-files/tree/master/i3)
+- **FINISHED:** Polybar - Part of my [dot-files repo](https://github.com/TobiasDev/dot-files/tree/master/polybar)
 - **FINISHED:** [Dunst](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/Dunst)
 - **FINISHED:** [Rofi](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/Rofi)
 - **FINISHED**: Termite - Part of my [dot-files repo](https://github.com/TobiasDev/dot-files/tree/master/termite)
 
 ### KDE
-Seeing as I no longer use KDE Plasma I have removed these files as I don't have enough time to keep them up-to-date.
+Seeing as I no longer use KDE Plasma I have removed these files.
 
 #### Windows 10
 - **FINISHED:** [UELI](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/UELI)
