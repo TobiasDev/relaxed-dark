@@ -1,7 +1,7 @@
 # Relaxed Dark
 **A relaxing dark theme to make your daily computer usage pleasant for your eyes**
 
-**Please read:** This theme is in early development. I have been looking for a dark theme I can use as my daily driver. I know there are a lot of themes out there, but I also wanted to learn how to create my own theme for the apps I use. This is the main reason for "Relaxed Dark".
+**Please read:** This theme is in development. I have been looking for a dark theme I can use as my daily driver. I know there are a lot of themes out there, but I also wanted to learn how to create my own theme for the apps I use. This is the main reason for "Relaxed Dark".
 
 Most of the theme are not released on any store/extension pages. The ones that are, can be found linked below.
 
@@ -11,29 +11,27 @@ Most of the theme are not released on any store/extension pages. The ones that a
 ## Finished / To-be done
 ### Software
 #### Multi
-- **TODO:** Firefox
+- **TODO:** Firefox or Ungoogled-Chromium (I still need to decide which browser I want to use)
 - **TODO:** Joplin
+- **TODO:** Krita
+- **MAYBE:** Godot Engine
+- **BETA:** [VS Code/VS Codium](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/VSCode)
 - **FINISHED:** [Vifm](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/Vifm)
 - **FINISHED:** [NeoVim](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/NeoVim)
-- **BETA:** [VS Code/VS Codium](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/VSCode)
 
 #### Linux (Arch-Based distro)
+- **TODO**: Grub
+- **FINISHED:** i3 - Part of my [dot-files repo](https://github.com/TobiasDev/dot-files/tree/master/i3)
 - **FINISHED:** [Dunst](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/Dunst)
 - **FINISHED:** [Rofi](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/Rofi)
-- **TODO**: Termite
-- **TODO**: [Grub](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/grub)
+- **FINISHED**: Termite - Part of my [dot-files repo](https://github.com/TobiasDev/dot-files/tree/master/termite)
+
+### KDE
+Seeing as I no longer use KDE Plasma I have removed these files as I don't have enough time to keep them up-to-date.
 
 #### Windows 10
 - **FINISHED:** [UELI](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/UELI)
 - **FINISHED:** [Cygwin](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/Cygwin)
-
-### ~~KDE~~
-_I have moved away from KDE (to i3). I will still update these, but I don't know when!_
-- **NEEDS REWORK:** [Color-Scheme](https://github.com/TobiasDev/relaxed-dark/tree/master/KDE/color-scheme)
-- **NEEDS REWORK:** [Desktop Theme](https://github.com/TobiasDev/relaxed-dark/tree/master/KDE/desktop-theme)
-- **NEEDS REWORK:** [SDDM Login Screen](https://github.com/TobiasDev/relaxed-dark/tree/master/KDE/sddm-login-screen)
-- **NEEDS REWORK:** [Window Decoration](https://github.com/TobiasDev/relaxed-dark/tree/master/KDE/window-decoration)
-- **NEEDS REWORK:** [Konsole](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/Konsole)
 
 # Colors
 **INFO: There are still some colors missing, if you have a suggestion for anything missing (#COOLOR), please open an issue**
@@ -139,5 +137,5 @@ Shadow: #000000ff
 ## Text colors (code)
 Inactive: #C0B1AF60
 
-# LICENSES
-Each sub-folder should include a license and a mention if the theme is based out of someone elses. If you see something that is wrong, please create and issue and I'll look into it ASAP.
+# LICENSE
+[MIT](https://github.com/TobiasDev/relaxed-dark/blob/master/LICENSE)
