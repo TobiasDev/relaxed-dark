@@ -11,7 +11,7 @@ Most of the theme are not released on any store/extension pages. The ones that a
 ## Finished / To-be done
 ### Software
 #### Multi
-- **TODO:** Firefox or Ungoogled-Chromium (I still need to decide which browser I want to use)
+- **TODO:** Firefox
 - **TODO:** Joplin
 - **TODO:** Krita
 - **MAYBE:** Godot Engine
@@ -25,14 +25,14 @@ Most of the theme are not released on any store/extension pages. The ones that a
 - **FINISHED:** Polybar - Part of my [dot-files repo](https://github.com/TobiasDev/dot-files/tree/master/polybar)
 - **FINISHED:** [Dunst](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/Dunst)
 - **FINISHED:** [Rofi](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/Rofi)
-- **FINISHED**: Termite - Part of my [dot-files repo](https://github.com/TobiasDev/dot-files/tree/master/termite)
+- **FINISHED**: Alacritty - Part of my [dot-files repo](https://github.com/TobiasDev/dot-files/tree/master/alacritty)
 
 ### KDE
 Seeing as I no longer use KDE Plasma I have removed these files.
 
 #### Windows 10
 - **FINISHED:** [UELI](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/UELI)
-- **FINISHED:** [Cygwin](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/Cygwin)
+- **FINISHED:** [Cygwin](https://github.com/TobiasDev/relaxed-dark/tree/master/Apps/Cygwin) - I have moved over to Alacritty, but will keep this on the repo for now
 
 # Colors
 **INFO: There are still some colors missing, if you have a suggestion for anything missing (#COOLOR), please open an issue**
