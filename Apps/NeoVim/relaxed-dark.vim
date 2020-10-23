@@ -4,19 +4,19 @@
 " Maintainer: 	Tobias Johansson <contact@johansson-tobias.com>
 " URL:		    https://github.com/TobiasDev/relaxed-dark/Apps/NeoVim
 " Version:	    0.2.2
-" Updated:      Added some plugin-specific colors 
+" Updated:      Added some plugin-specific colors
 
 " Commands that will help in creating your own theme
 " :he group-name
 " :he highlight-groups
 " :he cterm-colors
-" :highlight 
+" :highlight
 
 set background=dark
 
 highlight clear
 if exists ("syntax_on")
-	syntax reset
+    syntax reset
 endif
 
 let g:colors_name = "relaxed-dark"
@@ -28,7 +28,7 @@ hi Cursor 		    guifg=#C0B1AF	guifg=#ff0000   ctermbg=26  ctermfg=137
 " I'm not sure what "CursorIM" changes
 hi CursorIM		    guibg=#0000ff	guifg=#ff0000
 hi CursorLine		guibg=#1F1E1F	ctermbg=178     ctermfg=233
-hi CursorLineNr		guibg=none	    guifg=#725C5A	
+hi CursorLineNr		guibg=none	    guifg=#725C5A
 hi Directory		guibg=none 	    guifg=#D9B559
 hi DiffAdd		    guibg=#1C5087	guifg=#C0B1AF
 hi DiffChange		guibg=#DDB42C	guifg=#725C5A
@@ -66,9 +66,9 @@ hi PMenuSel         guibg=#4A3C3B   guifg=#F2F3E2
 " Syntax Highlighting
 " HAPPY-WITH-THESE:
 hi Comment		    guifg=#5B4948   ctermfg=233
-hi Constant		    guifg=#6589A4 	 	
+hi Constant		    guifg=#6589A4
 hi Special		    guifg=#629370
-hi Statement 		guifg=#A38F71 	gui=none 
+hi Statement 		guifg=#A38F71 	gui=none
 hi Conditional		guifg=#E78A67
 hi Repeat		    guifg=#E78A67
 hi Label		    guifg=#9E82B0
@@ -76,7 +76,7 @@ hi Operator		    guifg=#9E82B0
 hi Keyword		    guifg=#9E82B0
 hi Exception		guifg=#9E82B0
 hi Identifier		guifg=#9E82B0	gui=none
-hi Type			    guifg=#B6A790	gui=none 
+hi Type			    guifg=#B6A790	gui=none
 hi Error		    guibg=#A02C2C	guifg=#D9AAAA
 hi Todo			    guibg=#004ECC	guifg=#C0B1AF
 hi Underlined		guifg=#749BAA
