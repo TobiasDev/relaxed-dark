@@ -1,10 +1,10 @@
-" Relaxed Dark
+" Relaxed Solarized
 " A relaxing dark theme to make your daily computer usage pleasant for your eyes
 
 " Maintainer: 	Tobias Johansson <contact@johansson-tobias.com>
 " URL:		    https://github.com/TobiasDev/relaxed-dark/Apps/NeoVim
-" Version:	    0.2.2
-" Updated:      Added some plugin-specific colors
+" Version:	    0.1.0
+" Updated:      Began working on a "solarized" version
 
 " Commands that will help in creating your own theme
 " :he group-name
@@ -22,15 +22,16 @@ endif
 let g:colors_name = "relaxed-solarized"
 
 " App colors
-" Main: #002b36
-" Secondry: #002f3c
-" Darker: #001b22
-hi Normal 		    guibg=#002b36 	guifg=#C0B1AF
+" Main: #001b22
+" Lighter: #002b36
+" Lighteeeerr: #002f3c
+
+hi Normal 		    guibg=#001b22 	guifg=#C0B1AF
 " I'm currently not sure what "Cursor, guifg" changes
 hi Cursor 		    guifg=#C0B1AF	guifg=#ff0000
 " I'm not sure what "CursorIM" changes
 hi CursorIM		    guibg=#0000ff	guifg=#ff0000
-hi CursorLine		guibg=#002f3c
+hi CursorLine		guibg=#002b36
 hi CursorLineNr		guibg=none	    guifg=#43715a
 hi Directory		guibg=none 	    guifg=#D9B559
 hi DiffAdd		    guibg=#1C5087	guifg=#C0B1AF
@@ -67,27 +68,29 @@ hi PMenu            guibg=#1F1E1F   guifg=#C0B1AF
 hi PMenuSel         guibg=#4A3C3B   guifg=#F2F3E2
 
 " Syntax Highlighting
-" HAPPY-WITH-THESE:
+" """""""""" Updated for Solarized version """"""""""
 hi Comment		    guifg=#43725a
+
+" """""""""" Not updated for Solarized version """"""""""
 hi Constant		    guifg=#6589A4
 hi Special		    guifg=#629370
 hi Statement 		guifg=#A38F71 	gui=none
-hi Conditional		guifg=#E78A67
-hi Repeat		    guifg=#E78A67
-hi Label		    guifg=#9E82B0
-hi Operator		    guifg=#9E82B0
-hi Keyword		    guifg=#9E82B0
-hi Exception		guifg=#9E82B0
-hi Identifier		guifg=#9E82B0	gui=none
+hi Conditional		guifg=#713e00
+hi Repeat		    guifg=#713e00
+hi Label		    guifg=#00845e
+hi Operator		    guifg=#00845e
+hi Keyword		    guifg=#00845e
+hi Exception		guifg=#00845e
+hi Identifier		guifg=#00845e	gui=none
 hi Type			    guifg=#B6A790	gui=none
 hi Error		    guibg=#A02C2C	guifg=#D9AAAA
 hi Todo			    guibg=#004ECC	guifg=#C0B1AF
 hi Underlined		guifg=#749BAA
 
 " NEED-LONGER-TESTING:
-hi PreProc		    guifg=#9E82B0
+hi PreProc		    guifg=#00845e
 
- highlight SignColumn guibg=#1F1E1F gui=NONE
+ highlight SignColumn guibg=#1F1E1F gui=none
 " Make background color transparent for git changes
  hi SignifySignAdd guibg=#242D34
  hi SignifySignDelete guibg=#242D34
