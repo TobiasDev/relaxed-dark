@@ -3,8 +3,8 @@
 
 " Maintainer: 	Tobias Johansson <contact@johansson-tobias.com>
 " URL:		    https://github.com/TobiasDev/relaxed-dark/Apps/NeoVim
-" Version:	    0.1.1
-" Updated:      Trying to get "proper" coding colors
+" Version:	    0.1.2
+" Updated:      Updating coding colors
 
 " Commands that will help in creating your own theme
 " :he group-name
@@ -40,12 +40,13 @@ hi Search		    guibg=#003a49	guifg=none
 hi SignColumn       guibg=#002b36   gui=none
 hi VertSplit 		guibg=none 	    guifg=#002b36 	gui=none
 hi Visual		    guibg=#003a49	guifg=none      " For "Visual" mode, the selection box color
+hi MatchParen		guibg=#314f61	guifg=none
 
 " Diff colors
-hi DiffAdd		    guibg=#203426	guifg=none
-hi DiffChange		guibg=#183347	guifg=none
-hi DiffDelete		guibg=#331917	guifg=none
-hi DiffText		    guibg=#183347	guifg=none
+hi DiffAdd		    guibg=none	    guifg=#2ab453
+hi DiffChange		guibg=none	    guifg=#3b94d5
+hi DiffDelete		guibg=none	    guifg=#ca3c31
+hi DiffText		    guibg=none	    guifg=#3b94d5
 
 " NOT CONVERTED COLORS
 hi Directory		guibg=none 	    guifg=#D9B559
@@ -54,7 +55,6 @@ hi ErrorMsg		    guibg=#A02C2C	guifg=#C0B1AF
 hi Folded		    guibg=#242D34	guifg=#725C5A
 hi FoldedColumn		guibg=#0000ff	guifg=#ff0000
 hi IncSearch		guibg=#F2F3E2	guifg=#162C3C
-hi MatchParen		guibg=#453736	guifg=#F2F3E2
 hi ModeMsg		    guibg=#242D34	guifg=#F2F3E2
 hi MoreMsg		    guibg=#1F1E1F	guifg=#C0B1AF
 hi NonText		    guibg=#242D34	guifg=#725C5A
@@ -81,21 +81,24 @@ hi Whitespace       guibg=#ff0000	guifg=#ff0000
 " """""""""" Updated for Solarized version """"""""""
 hi Comment		    guifg=#43725a
 
+hi Constant		    guifg=#85bdd8
+
+hi Special		    guifg=#9ab4b0
+
+hi Conditional		guifg=#ece6e6
+hi Repeat		    guifg=#ece6e6
+hi Label		    guifg=#ece6e6
+
+hi Statement 		guifg=#5b8a67 	gui=none " #A38F71
+hi Operator		    guifg=#5b8a67
+hi Keyword		    guifg=#5b8a67
+hi Exception		guifg=#5b8a67
+hi Identifier		guifg=#5b8a67	gui=none
+hi PreProc		    guifg=#5b8a67
+
+hi Type			    guifg=#518c95	gui=none
+
 " """""""""" Not updated for Solarized version """"""""""
-hi Constant		    guifg=#3889b0
-hi Special		    guifg=#629370
-hi Statement 		guifg=#A38F71 	gui=none
-hi Conditional		guifg=#713e00
-hi Repeat		    guifg=#713e00
-hi Label		    guifg=#00845e
-hi Operator		    guifg=#00845e
-hi Keyword		    guifg=#00845e
-hi Exception		guifg=#00845e
-hi Identifier		guifg=#00845e	gui=none
-hi Type			    guifg=#B6A790	gui=none
 hi Error		    guibg=#A02C2C	guifg=#D9AAAA
 hi Todo			    guibg=#004ECC	guifg=#C0B1AF
 hi Underlined		guifg=#749BAA
-
-" NEED-LONGER-TESTING:
-hi PreProc		    guifg=#00845e
