@@ -40,7 +40,7 @@ Seeing as I no longer use KDE Plasma I have removed these files.
 
 # Colors
 ## Relaxed Dark
-TODO - ADD LINK TO COLORS README
+Relaxed Dark Colors: https://github.com/TobiasDev/relaxed-dark/blob/master/colors_relaxed_dark.md
 
 ## Relaxed Solarized
 TODO - ADD COLORS
