@@ -30,7 +30,7 @@ hi CursorLine		guibg=#002b36
 hi CursorLineNr		guibg=#002b36	guifg=#43715a
 hi LineNr		    guibg=#001b22	guifg=#264033
 hi Search		    guibg=#003a49	guifg=none
-hi SignColumn       guibg=#002b36
+hi SignColumn       guibg=#001b22
 hi VertSplit 		guibg=none 	    guifg=#001b22	gui=none
 hi Visual		    guibg=#003a49	guifg=none      " Selection box color
 hi MatchParen		guibg=#314f61	guifg=none
@@ -42,10 +42,10 @@ hi PMenuSel         guibg=#002f3c   guifg=#F2F3E2
 " -----------------------------
 " DIFF
 " -----------------------------
-hi DiffAdd		    guibg=none	    guifg=#2ab453
-hi DiffChange		guibg=none	    guifg=#3b94d5
+hi DiffAdd		    guibg=none	    guifg=#35d063   gui=bold
+hi DiffChange		guibg=none	    guifg=#5ba6dc   gui=bold
 hi DiffDelete		guibg=none	    guifg=#8b2922
-hi DiffText		    guibg=none	    guifg=#3b94d5
+hi DiffText		    guibg=none	    guifg=#5ba6dc   gui=bold
 
 " -----------------------------
 " MESSAGES
