@@ -29,7 +29,7 @@ hi NormalNC 		guibg=none 	    guifg=#676767
 hi CursorLine		guibg=#002b36
 hi CursorLineNr		guibg=#002b36	guifg=#43715a
 hi LineNr		    guibg=#001b22	guifg=#264033
-hi Search		    guibg=#003a49	guifg=none
+hi Search		    guibg=#005970 	guifg=none
 hi SignColumn       guibg=#001b22
 hi VertSplit 		guibg=none 	    guifg=#001b22	gui=none
 hi Visual		    guibg=#003a49	guifg=none      " Selection box color
@@ -68,7 +68,7 @@ hi WildMenu		    guibg=#285270	guifg=#F2F3E2
 " -----------------------------
 " SYNTAX
 " -----------------------------
-hi Comment		    guifg=#43725a
+hi Comment		    guifg=#388835
 
 hi Constant		    guifg=#85bdd8
 
@@ -98,13 +98,13 @@ hi Underlined		guibg=none      guifg=#458add   gui=underline
 " NOT SURE WHERE THESE COLORS ARE USED
 " -----------------------------
 hi Cursor 		    guibg=#000000   guifg=#000000
-hi CursorIM		    guibg=#0000ff	guifg=#ff0000
-hi VisualNOS	    guibg=#00FF00	guifg=#ff0000
-hi Menu			    guibg=#FF00FF	guifg=#ff0000
-hi Scrollbar	    guibg=#FF0000	guifg=#ff0000
-hi Tooltip		    guibg=#ff00ff	guifg=#ff0000
-hi Whitespace       guibg=#ff0000	guifg=#ff0000
-hi FoldedColumn		guibg=#0000ff	guifg=#ff0000
+hi CursorIM		    guibg=#000000	guifg=#ffff00
+hi VisualNOS	    guibg=#000000	guifg=#ffff00
+hi Menu			    guibg=#00FFff	guifg=#ff00ff
+hi Scrollbar	    guibg=#FF0000	guifg=#0000ff
+hi Tooltip		    guibg=#ff00ff	guifg=#00ff00
+hi Whitespace       guibg=#ff0000	guifg=#000000
+hi FoldedColumn		guibg=#0000ff	guifg=#ffffff
 
 " ---------------------------------------------------------------
 " PLUGINS
